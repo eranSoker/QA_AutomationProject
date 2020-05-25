@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3cc9ba0-63e6-454f-b2f6-bb627e104aca" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YmysQtgKleKpsVZDpARVn7XLVx" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mobile" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\FinalProject\Mobile\src\test\java\SanityTests" />
+      <recent name="C:\Automation\FinalProject\Mobile\src\main\java\WorkFlows" />
+      <recent name="C:\Automation\FinalProject\Mobile\src\main\java\PageObjects" />
+      <recent name="C:\Automation\FinalProject\Mobile\src\main\java" />
+      <recent name="C:\Automation\FinalProject" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PageObjects.ExperiBank" />
+      <recent name="Extensions" />
+      <recent name="PageObjects" />
+      <recent name="PageObjects.SignUp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Automation\Mobile" />
+      <recent name="C:\Automation\FinalProject\Configuration" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.phpTravelsWeb">
+    <configuration name="APIDemosElectron" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.APIDemosElectron" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APIDemosElectron.screenResolution" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.APIDemosElectron" />
+      <option name="METHOD_NAME" value="screenResolution" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calculatorDesktop" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.calculatorDesktop" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="phpTravelsWeb" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.phpTravelsWeb" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="remotemysqlDB" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="FinalProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SanityTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SanityTests" />
+      <option name="MAIN_CLASS_NAME" value="SanityTests.remotemysqlDB" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.phpTravelsWeb" />
+      <item itemvalue="TestNG.APIDemosElectron" />
+      <item itemvalue="TestNG.APIDemosElectron.screenResolution" />
+      <item itemvalue="TestNG.calculatorDesktop" />
+      <item itemvalue="TestNG.remotemysqlDB" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.phpTravelsWeb" />
+        <item itemvalue="TestNG.APIDemosElectron" />
+        <item itemvalue="TestNG.remotemysqlDB" />
+        <item itemvalue="TestNG.calculatorDesktop" />
+        <item itemvalue="TestNG.APIDemosElectron.screenResolution" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3cc9ba0-63e6-454f-b2f6-bb627e104aca" name="Default Changelist" comment="" />
+      <created>1583562270844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583562270844</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/PHPTravels/signUpPage.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SanityTests/grafanaAPI.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WorkFlows/electronFlows.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WorkFlows/electronFlows.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="systemInfoElec.txt_ScreenResolution.getText()" language="JAVA" />
+        <watch expression="systemInfoElec.txt_ScreenResolution" language="JAVA" />
+        <watch expression="num1 operator num2" language="JAVA" />
+        <watch expression="num1+operator2 + num2" language="JAVA" />
+        <watch expression="Integer.parseInt(num1+operator2+num2)" language="JAVA" />
+        <watch expression="Integer.parseInt(&quot;9+6&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

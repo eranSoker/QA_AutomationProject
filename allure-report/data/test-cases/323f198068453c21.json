@@ -1,0 +1,92 @@
+{
+  "uid" : "323f198068453c21",
+  "name" : "startSession",
+  "fullName" : "Utilities.commonOps.startSession",
+  "historyId" : "5cd90cb7bb805bf6d7a36bb0d7e440ef",
+  "time" : {
+    "start" : 1590390061429,
+    "stop" : 1590390061433,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "statusMessage" : "java.net.UnknownHostException: npm.taobao.org",
+  "statusTrace" : "io.github.bonigarcia.wdm.WebDriverManagerException: java.net.UnknownHostException: npm.taobao.org\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:754)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:751)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:563)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:260)\r\n\tat Utilities.commonOps.initChromeDriver(commonOps.java:69)\r\n\tat Utilities.commonOps.initBrowser(commonOps.java:54)\r\n\tat Utilities.commonOps.startSession(commonOps.java:124)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)\r\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:340)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:294)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\r\n\tat org.testng.TestRunner.run(TestRunner.java:591)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\r\n\tat org.testng.TestNG.run(TestNG.java:1000)\r\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)\r\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\r\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\nCaused by: java.net.UnknownHostException: npm.taobao.org\r\n\tat java.net.InetAddress.getAllByName0(InetAddress.java:1281)\r\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1193)\r\n\tat java.net.InetAddress.getAllByName(InetAddress.java:1127)\r\n\tat org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)\r\n\tat org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)\r\n\tat org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)\r\n\tat org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)\r\n\tat org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)\r\n\tat org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)\r\n\tat org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)\r\n\tat org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)\r\n\tat org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)\r\n\tat org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)\r\n\tat io.github.bonigarcia.wdm.HttpClient.execute(HttpClient.java:169)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.getDriversFromMirror(WebDriverManager.java:1019)\r\n\tat io.github.bonigarcia.wdm.ChromeDriverManager.getDrivers(ChromeDriverManager.java:82)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.filterCandidateUrls(WebDriverManager.java:770)\r\n\tat io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:549)\r\n\t... 36 more\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "startSession"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RDMHKH3"
+  }, {
+    "name" : "thread",
+    "value" : "4176@DESKTOP-RDMHKH3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "92cc3630b088d9c1",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/92cc3630b088d9c1",
+        "status" : "broken",
+        "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+        "time" : {
+          "start" : 1590390061429,
+          "stop" : 1590390061433,
+          "duration" : 4
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "323f198068453c21.json",
+  "parameterValues" : [ "web" ]
+}

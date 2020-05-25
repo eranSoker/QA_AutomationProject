@@ -1,0 +1,704 @@
+{
+  "uid" : "2e0ea8fc5d3a89e7",
+  "name" : "Book A Deal",
+  "fullName" : "SanityTests.phpTravelsWeb.bookDeal",
+  "historyId" : "5c108ada46cea6a9a0df942856133394",
+  "time" : {
+    "start" : 1590390251746,
+    "stop" : 1590390275067,
+    "duration" : 23321
+  },
+  "description" : "Test Description: book a deal and make sure the details are match to actual result",
+  "descriptionHtml" : "<p>Test Description: book a deal and make sure the details are match to actual result</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1590390208204,
+      "stop" : 1590390222553,
+      "duration" : 14349
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: book a deal and make sure the details are match to actual result",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Change currency",
+      "time" : {
+        "start" : 1590390251746,
+        "stop" : 1590390253429,
+        "duration" : 1683
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390251767,
+          "stop" : 1590390252187,
+          "duration" : 420
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //div[@class='dropdown dropdown-currency']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390252325,
+          "stop" : 1590390252426,
+          "duration" : 101
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //a[@class='dropdown-item text-center']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Choose a flight",
+      "time" : {
+        "start" : 1590390253429,
+        "stop" : 1590390271777,
+        "duration" : 18348
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Close popup",
+        "time" : {
+          "start" : 1590390254858,
+          "stop" : 1590390259941,
+          "duration" : 5083
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //button[@aria-label='dismiss cookie message']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390259988,
+          "stop" : 1590390260257,
+          "duration" : 269
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> link text: FLIGHTS]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390260307,
+          "stop" : 1590390260474,
+          "duration" : 167
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //label[@class='custom-control-label' and @for='flightSearchRadio-1']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390260489,
+          "stop" : 1590390260677,
+          "duration" : 188
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[1]/div/div[2]/div/a]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1590390260692,
+          "stop" : 1590390260906,
+          "duration" : 214
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[1]/div/div[2]/div/a]"
+        }, {
+          "name" : "value",
+          "value" : "New York"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1590390261668,
+          "stop" : 1590390262055,
+          "duration" : 387
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> link text: FLIGHTS]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //li[@class='select2-results-dept-0 select2-result select2-result-selectable']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390262070,
+          "stop" : 1590390262260,
+          "duration" : 190
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[2]/div/div[2]/div/a]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1590390262286,
+          "stop" : 1590390262453,
+          "duration" : 167
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[2]/div/div[2]/div/a]"
+        }, {
+          "name" : "value",
+          "value" : "Miami"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1590390263441,
+          "stop" : 1590390263873,
+          "duration" : 432
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[2]/div/div[2]/div/a]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //li[@class='select2-results-dept-0 select2-result select2-result-selectable select2-highlighted']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390263887,
+          "stop" : 1590390264072,
+          "duration" : 185
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> id: FlightsDateStart]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1590390264622,
+          "stop" : 1590390265008,
+          "duration" : 386
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> id: FlightsDateStart]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //div[@class='datepicker -bottom-left- -from-bottom- active']/div/div/div[2]/div]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1590390265521,
+          "stop" : 1590390265914,
+          "duration" : 393
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> id: FlightsDateEnd]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //div[@class='datepicker -bottom-left- -from-bottom- active']/div/div/div[2]/div]] -> xpath: following-sibling::div[7]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390265938,
+          "stop" : 1590390266154,
+          "duration" : 216
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //div[@class='col-4']/div/div[2]/div/span/button]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390266184,
+          "stop" : 1590390271777,
+          "duration" : 5593
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //button[@class='btn-primary btn btn-block']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 14,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Select one deal and book",
+      "time" : {
+        "start" : 1590390272017,
+        "stop" : 1590390274749,
+        "duration" : 2732
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390272241,
+          "stop" : 1590390274748,
+          "duration" : 2507
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//button[@class='btn btn-primary btn-block theme-search-results-item-price-btn'])[1]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1590390274778,
+        "stop" : 1590390274865,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//h5[@class='font-serif font400'])[1]]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "Booking Summary"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Condition is True",
+      "time" : {
+        "start" : 1590390274910,
+        "stop" : 1590390274910,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "bol",
+        "value" : "true"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Condition is True",
+      "time" : {
+        "start" : 1590390274953,
+        "stop" : 1590390274953,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "bol",
+        "value" : "true"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1590390274975,
+        "stop" : 1590390275067,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> class name: absolute-right]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "EUR 1220"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 24,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1590390275070,
+      "stop" : 1590390277050,
+      "duration" : 1980
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1590390298692,
+      "stop" : 1590390299391,
+      "duration" : 699
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "bookDeal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RDMHKH3"
+  }, {
+    "name" : "thread",
+    "value" : "9676@DESKTOP-RDMHKH3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cb3d68853b9a0371",
+      "status" : "skipped",
+      "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+      "time" : {
+        "start" : 1590390061740,
+        "stop" : 1590390061740,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 1,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "a0669abc7e14db10",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/a0669abc7e14db10",
+        "status" : "skipped",
+        "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+        "time" : {
+          "start" : 1590390061740,
+          "stop" : 1590390061740,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "6713f906aaac33b5",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/10/allure/#testresult/6713f906aaac33b5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590215483529,
+          "stop" : 1590215505792,
+          "duration" : 22263
+        }
+      }, {
+        "uid" : "4b52e13ec21ef642",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/9/allure/#testresult/4b52e13ec21ef642",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//h5[@class='font-serif font400'])[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1590215072673,
+          "stop" : 1590215107010,
+          "duration" : 34337
+        }
+      }, {
+        "uid" : "a3965ab93dda5fa9",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/8/allure/#testresult/a3965ab93dda5fa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590214834193,
+          "stop" : 1590214855831,
+          "duration" : 21638
+        }
+      }, {
+        "uid" : "8656432c7c018a6c",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/7/allure/#testresult/8656432c7c018a6c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590214289893,
+          "stop" : 1590214310080,
+          "duration" : 20187
+        }
+      }, {
+        "uid" : "b980ac28b4527123",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/6/allure/#testresult/b980ac28b4527123",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590211133221,
+          "stop" : 1590211153243,
+          "duration" : 20022
+        }
+      }, {
+        "uid" : "ec637d9be7359aee",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/5/allure/#testresult/ec637d9be7359aee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590210143489,
+          "stop" : 1590210164064,
+          "duration" : 20575
+        }
+      }, {
+        "uid" : "8618a148404bd8ca",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/4/allure/#testresult/8618a148404bd8ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590147885586,
+          "stop" : 1590147905735,
+          "duration" : 20149
+        }
+      }, {
+        "uid" : "90ea1e032a66dee2",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/3/allure/#testresult/90ea1e032a66dee2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590147759585,
+          "stop" : 1590147778327,
+          "duration" : 18742
+        }
+      }, {
+        "uid" : "c5f09f9215795bd1",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/2/allure/#testresult/c5f09f9215795bd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590146933680,
+          "stop" : 1590146953781,
+          "duration" : 20101
+        }
+      }, {
+        "uid" : "162d317708c1abcb",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/1/allure/#testresult/162d317708c1abcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590146357000,
+          "stop" : 1590146375267,
+          "duration" : 18267
+        }
+      }, {
+        "uid" : "aae0feb49cabf879",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Electron/3/allure/#testresult/aae0feb49cabf879",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: Flights' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1589786918566,
+          "stop" : 1589786942962,
+          "duration" : 24396
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2e0ea8fc5d3a89e7.json",
+  "parameterValues" : [ "web" ]
+}

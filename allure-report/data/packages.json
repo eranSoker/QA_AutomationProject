@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "SanityTests.phpTravelsWeb",
+    "children" : [ {
+      "name" : "startSession",
+      "uid" : "323f198068453c21",
+      "parentUid" : "13a3ead727f6cb5fd0a03c56f8db6a82",
+      "status" : "broken",
+      "time" : {
+        "start" : 1590390061429,
+        "stop" : 1590390061433,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "createUser",
+      "uid" : "b84b8c93c783eaa5",
+      "parentUid" : "13a3ead727f6cb5fd0a03c56f8db6a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390222625,
+        "stop" : 1590390228022,
+        "duration" : 5397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "chooseFlight",
+      "uid" : "f93589567caca0de",
+      "parentUid" : "13a3ead727f6cb5fd0a03c56f8db6a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390229646,
+        "stop" : 1590390250040,
+        "duration" : 20394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "bookDeal",
+      "uid" : "2e0ea8fc5d3a89e7",
+      "parentUid" : "13a3ead727f6cb5fd0a03c56f8db6a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390251746,
+        "stop" : 1590390275067,
+        "duration" : 23321
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "liveChatMessage",
+      "uid" : "b60767f7fbe0378f",
+      "parentUid" : "13a3ead727f6cb5fd0a03c56f8db6a82",
+      "status" : "failed",
+      "time" : {
+        "start" : 1590390277068,
+        "stop" : 1590390291973,
+        "duration" : 14905
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    }, {
+      "name" : "twitterSync",
+      "uid" : "d21cd33c3916a7a3",
+      "parentUid" : "13a3ead727f6cb5fd0a03c56f8db6a82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390293952,
+        "stop" : 1590390296494,
+        "duration" : 2542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "web" ]
+    } ],
+    "uid" : "SanityTests.phpTravelsWeb"
+  } ]
+}

@@ -1,0 +1,61 @@
+[ {
+  "uid" : "f93589567caca0de",
+  "name" : "Choose A Flight",
+  "time" : {
+    "start" : 1590390229646,
+    "stop" : 1590390250040,
+    "duration" : 20394
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e0ea8fc5d3a89e7",
+  "name" : "Book A Deal",
+  "time" : {
+    "start" : 1590390251746,
+    "stop" : 1590390275067,
+    "duration" : 23321
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d21cd33c3916a7a3",
+  "name" : "Twitter Link",
+  "time" : {
+    "start" : 1590390293952,
+    "stop" : 1590390296494,
+    "duration" : 2542
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b84b8c93c783eaa5",
+  "name" : "Create New User",
+  "time" : {
+    "start" : 1590390222625,
+    "stop" : 1590390228022,
+    "duration" : 5397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "323f198068453c21",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1590390061429,
+    "stop" : 1590390061433,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b60767f7fbe0378f",
+  "name" : "Write Message in the Live Chat",
+  "time" : {
+    "start" : 1590390277068,
+    "stop" : 1590390291973,
+    "duration" : 14905
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

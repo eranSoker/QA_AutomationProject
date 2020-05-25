@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 93.511 s <<< FAILURE! - in TestSuite
+liveChatMessage(SanityTests.phpTravelsWeb)  Time elapsed: 14.91 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	did not expect to find [true] but found [false]
+	at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:55)
+

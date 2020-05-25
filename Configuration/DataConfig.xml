@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>
+
+    <!-- ____________________________________________________________________________________________________________________________ -->
+
+    <!-- Web -->
+    <BrowserName>Chrome</BrowserName>
+    <ImageRepo>./imageRepository/</ImageRepo>
+
+    <!-- Variables Account -->
+    <url>https://www.phptravels.net/home/</url>
+    <firstName>Eran</firstName>
+    <lastName>Soker</lastName>
+    <phoneNumber>052-1234567</phoneNumber>
+    <email>eran1@mail.com</email>
+    <password>123456</password>
+
+    <!-- Variables Flight -->
+    <from>New York</from>
+    <to>Miami</to>
+    <numberOfDays>7</numberOfDays>
+    <currency>EUR</currency>
+
+    <!-- Variables Chat -->
+    <subject>Booking process is Stuck</subject>
+    <message>Hello, I'm trying to book a flight from Tel Aviv to London and from some reason it's stuck! please I need HELPPPP</message>
+
+    <!-- Links -->
+    <urlTitle>twitter</urlTitle>
+    <twitterUrl>https://twitter.com/phptravels</twitterUrl>
+    <fbUrl>https://www.facebook.com/travelbusiness</fbUrl>
+
+    <!-- ____________________________________________________________________________________________________________________________ -->
+
+    <!-- API -->
+    <urlAPI>http://localhost:3000</urlAPI>
+
+    <!-- Credentials Account -->
+    <userNameAPI>admin</userNameAPI>
+    <passwordAPI>admin</passwordAPI>
+
+    <!-- ____________________________________________________________________________________________________________________________ -->
+
+    <!-- Electron -->
+    <ElectronDriverPath>./Drivers/electron.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Automation/ElectronDemos/Electron API Demos.exe</ElectronAppPath>
+
+    <!-- ____________________________________________________________________________________________________________________________ -->
+
+    <!-- Desktop -->
+    <AppUnique>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</AppUnique>
+    <WinAppDriver>http://127.0.0.1:4723</WinAppDriver>
+
+    <!-- ____________________________________________________________________________________________________________________________ -->
+
+    <!-- DB -->
+    <dbURL>jdbc:mysql://remotemysql.com:3306/NZhFOC9MRH</dbURL>
+    <dbUser>NZhFOC9MRH</dbUser>
+    <dbPassword>DQMlbLu3IC</dbPassword>
+
+</Environment>

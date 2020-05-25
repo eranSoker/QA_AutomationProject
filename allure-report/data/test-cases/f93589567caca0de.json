@@ -1,0 +1,580 @@
+{
+  "uid" : "f93589567caca0de",
+  "name" : "Choose A Flight",
+  "fullName" : "SanityTests.phpTravelsWeb.chooseFlight",
+  "historyId" : "a01993458a6298fa8164a3ef9a4b8d03",
+  "time" : {
+    "start" : 1590390229646,
+    "stop" : 1590390250040,
+    "duration" : 20394
+  },
+  "description" : "Test Description: Choosing A Flight from one Destination to second Destination for 2 passenger and Verify the Number of Results",
+  "descriptionHtml" : "<p>Test Description: Choosing A Flight from one Destination to second Destination for 2 passenger and Verify the Number of Results</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1590390208204,
+      "stop" : 1590390222553,
+      "duration" : 14349
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Choosing A Flight from one Destination to second Destination for 2 passenger and Verify the Number of Results",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Choose a flight",
+      "time" : {
+        "start" : 1590390229646,
+        "stop" : 1590390249718,
+        "duration" : 20072
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Close popup",
+        "time" : {
+          "start" : 1590390229663,
+          "stop" : 1590390234790,
+          "duration" : 5127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //button[@aria-label='dismiss cookie message']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390234852,
+          "stop" : 1590390235196,
+          "duration" : 344
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> link text: FLIGHTS]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390235239,
+          "stop" : 1590390235438,
+          "duration" : 199
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //label[@class='custom-control-label' and @for='flightSearchRadio-1']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390235458,
+          "stop" : 1590390235656,
+          "duration" : 198
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[1]/div/div[2]/div/a]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1590390235673,
+          "stop" : 1590390235934,
+          "duration" : 261
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[1]/div/div[2]/div/a]"
+        }, {
+          "name" : "value",
+          "value" : "New York"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1590390237095,
+          "stop" : 1590390237550,
+          "duration" : 455
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> link text: FLIGHTS]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //li[@class='select2-results-dept-0 select2-result select2-result-selectable']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390237593,
+          "stop" : 1590390237827,
+          "duration" : 234
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[2]/div/div[2]/div/a]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Send Text to Text-Field",
+        "time" : {
+          "start" : 1590390237844,
+          "stop" : 1590390238009,
+          "duration" : 165
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[2]/div/div[2]/div/a]"
+        }, {
+          "name" : "value",
+          "value" : "Miami"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1590390238745,
+          "stop" : 1590390239168,
+          "duration" : 423
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: (//div[@class='col-md-6 col-6'])[2]/div/div[2]/div/a]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //li[@class='select2-results-dept-0 select2-result select2-result-selectable select2-highlighted']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390239190,
+          "stop" : 1590390239391,
+          "duration" : 201
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> id: FlightsDateStart]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1590390240060,
+          "stop" : 1590390240491,
+          "duration" : 431
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> id: FlightsDateStart]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //div[@class='datepicker -bottom-left- -from-bottom- active']/div/div/div[2]/div]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Mouse Hover to Element",
+        "time" : {
+          "start" : 1590390241067,
+          "stop" : 1590390241449,
+          "duration" : 382
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem1",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> id: FlightsDateEnd]"
+        }, {
+          "name" : "elem2",
+          "value" : "[[[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //div[@class='datepicker -bottom-left- -from-bottom- active']/div/div/div[2]/div]] -> xpath: following-sibling::div[7]]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390241475,
+          "stop" : 1590390241686,
+          "duration" : 211
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //div[@class='col-4']/div/div[2]/div/span/button]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590390241708,
+          "stop" : 1590390249718,
+          "duration" : 8010
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //button[@class='btn-primary btn btn-block']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 14,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify Element is Displayed",
+      "time" : {
+        "start" : 1590390249776,
+        "stop" : 1590390249871,
+        "duration" : 95
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //h3[@class='heading-title']]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Verify the number of Elements Equals to Value",
+      "time" : {
+        "start" : 1590390249949,
+        "stop" : 1590390250040,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li], [[ChromeDriver: chrome on WINDOWS (44a100282403c1b76f5582de00eeffdf)] -> xpath: //ul[@id='LIST']/li]]"
+      }, {
+        "name" : "expectedValue",
+        "value" : "50"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1590390250049,
+      "stop" : 1590390251742,
+      "duration" : 1693
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1590390298692,
+      "stop" : 1590390299391,
+      "duration" : 699
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "chooseFlight"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RDMHKH3"
+  }, {
+    "name" : "thread",
+    "value" : "9676@DESKTOP-RDMHKH3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5563e845d6404724",
+      "status" : "skipped",
+      "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+      "time" : {
+        "start" : 1590390061736,
+        "stop" : 1590390061736,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 1,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "5efb19e24c503839",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/5efb19e24c503839",
+        "status" : "skipped",
+        "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+        "time" : {
+          "start" : 1590390061736,
+          "stop" : 1590390061736,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "dff327612b68f21e",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/10/allure/#testresult/dff327612b68f21e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590215464499,
+          "stop" : 1590215481529,
+          "duration" : 17030
+        }
+      }, {
+        "uid" : "a9a2c1aee9fac34a",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/9/allure/#testresult/a9a2c1aee9fac34a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590215055213,
+          "stop" : 1590215070534,
+          "duration" : 15321
+        }
+      }, {
+        "uid" : "59b9e86e9df29f8b",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/8/allure/#testresult/59b9e86e9df29f8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590214816897,
+          "stop" : 1590214832645,
+          "duration" : 15748
+        }
+      }, {
+        "uid" : "66dd561f7b259b70",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/7/allure/#testresult/66dd561f7b259b70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590214272709,
+          "stop" : 1590214287847,
+          "duration" : 15138
+        }
+      }, {
+        "uid" : "5cebbe6f94be292f",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/6/allure/#testresult/5cebbe6f94be292f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590211116757,
+          "stop" : 1590211131291,
+          "duration" : 14534
+        }
+      }, {
+        "uid" : "42bc9eb5df221e47",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/5/allure/#testresult/42bc9eb5df221e47",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590210128182,
+          "stop" : 1590210142168,
+          "duration" : 13986
+        }
+      }, {
+        "uid" : "6b3d67c050e12ac8",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/4/allure/#testresult/6b3d67c050e12ac8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590147866423,
+          "stop" : 1590147883682,
+          "duration" : 17259
+        }
+      }, {
+        "uid" : "eae9553a0e51f1ba",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/3/allure/#testresult/eae9553a0e51f1ba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590147740313,
+          "stop" : 1590147757709,
+          "duration" : 17396
+        }
+      }, {
+        "uid" : "8297a4ccfd361778",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/2/allure/#testresult/8297a4ccfd361778",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590146916840,
+          "stop" : 1590146931805,
+          "duration" : 14965
+        }
+      }, {
+        "uid" : "53a9ee18ed69635e",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/1/allure/#testresult/53a9ee18ed69635e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590146340299,
+          "stop" : 1590146355018,
+          "duration" : 14719
+        }
+      }, {
+        "uid" : "93c36cc6fe31c69d",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Electron/3/allure/#testresult/93c36cc6fe31c69d",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: Flights' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1589786895137,
+          "stop" : 1589786916508,
+          "duration" : 21371
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f93589567caca0de.json",
+  "parameterValues" : [ "web" ]
+}

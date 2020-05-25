@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "startSession",
+    "uid" : "323f198068453c21",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1590390061429,
+      "stop" : 1590390061433,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Create New User",
+    "uid" : "b84b8c93c783eaa5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590390222625,
+      "stop" : 1590390228022,
+      "duration" : 5397
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Choose A Flight",
+    "uid" : "f93589567caca0de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590390229646,
+      "stop" : 1590390250040,
+      "duration" : 20394
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Book A Deal",
+    "uid" : "2e0ea8fc5d3a89e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590390251746,
+      "stop" : 1590390275067,
+      "duration" : 23321
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Write Message in the Live Chat",
+    "uid" : "b60767f7fbe0378f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1590390277068,
+      "stop" : 1590390291973,
+      "duration" : 14905
+    },
+    "flaky" : true,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Twitter Link",
+    "uid" : "d21cd33c3916a7a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1590390293952,
+      "stop" : 1590390296494,
+      "duration" : 2542
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  } ]
+}
