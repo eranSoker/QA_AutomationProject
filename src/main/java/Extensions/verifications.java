@@ -63,7 +63,7 @@ public class verifications extends commonOps
         assertEquals(elems.size(), expectedValue);
     }
 
-    @Step("Verify Element Visualy")
+    @Step("Verify Element Visually")
     public static void assertVisualElement (WebElement imageElememt, String expectedImageName) throws IOException
     {
         BufferedImage expectedImage = null;

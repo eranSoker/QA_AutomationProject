@@ -1,5 +1,5 @@
 {
-  "uid" : "d365fc1058b5ead3",
+  "uid" : "29a52e19e2fc1b6f",
   "name" : "Create New User",
   "fullName" : "SanityTests.phpTravelsWeb.createUser",
   "historyId" : "b724e36ce2e6cc42d4e4ae7aabce3c4d",
@@ -31,8 +31,8 @@
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : true,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
   } ],
   "afterStages" : [ {
     "name" : "afterMethod",
@@ -48,8 +48,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "closeSession",
     "time" : {
@@ -64,8 +64,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -112,6 +112,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d365fc1058b5ead3.json",
+  "source" : "29a52e19e2fc1b6f.json",
   "parameterValues" : [ "web" ]
 }

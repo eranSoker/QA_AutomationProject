@@ -23,5 +23,5 @@ public class dbFlows extends commonOps
         uiActions.updateText(userLogin.txtField_ConfirmPassword, cred.get(4));
         uiActions.closePopUp(phpTravelsHome.btn_Cookies);
         uiActions.click(userLogin.btn_SignUp);
-        }
+    }
 }

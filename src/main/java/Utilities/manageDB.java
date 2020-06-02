@@ -1,9 +1,14 @@
 package Utilities;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
+
 import java.sql.DriverManager;
 
 public class manageDB extends commonOps
 {
+    @Step("Connect to Data Base")
+    @Description("Step Description: Connect to Data Base according to the dbURL in DataConfig.xml file")
     public static void initDB(String dbURL, String user, String pass)
     {
         try
@@ -18,6 +23,8 @@ public class manageDB extends commonOps
         }
     }
 
+    @Step("Disconnect from Data Base")
+    @Description("Step Description: Disconnect from Data Base - dbURL in DataConfig.xml file")
     public static void closeDBConnection()
     {
         try

@@ -1,13 +1,13 @@
 package Extensions;
 
 import Utilities.commonOps;
+import io.qameta.allure.Description;
 import io.qameta.allure.Step;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
-import java.util.Set;
 
 public class uiActions extends commonOps
 {
@@ -72,73 +72,10 @@ public class uiActions extends commonOps
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", elem);
     }
 
-    @Step("Get Get Url And Match")
-    public static void GetUrlAndMatch (String url)
+    @Step("back To Default Content")
+    public static void backToDefault ()
     {
-        Set<String> winHandles = driver.getWindowHandles();
-        for (String winHandle : winHandles)
-        {
-            driver.switchTo().window(winHandle);
-            if(driver.getTitle().contains(getData("urlTitle")))
-            break;
-        }
-        verifications.assertTrueCondition(driver.getCurrentUrl().equals((url)));
         driver.switchTo().defaultContent();
     }
 
-    @Step("Get Result From Calculator")
-    public static void getResultCalc (WebElement elem)
-    {
-        elem.getText().replace("Display is", "").trim();
-    }
-
-    @Step("Click On Operator Calculator")
-    public static void clickCalcOperator (char operator)
-    {
-        if (operator == '+')
-            uiActions.click(calcMain.btnFun_Plus);
-        else if (operator == '-')
-            uiActions.click(calcMain.btnFun_Minus);
-        else if (operator == '/')
-            uiActions.click(calcMain.btnFun_Divide);
-        else if (operator == '*')
-            uiActions.click(calcMain.btnFun_Multiply);
-        else
-            System.out.println("Missing valid operator");
-    }
-
-    @Step("Click On Number Calculator")
-    public static void clickCalcNumber (int num)
-    {
-        switch (num)
-        {
-            case 1:
-                uiActions.click(calcMain.btnNum_One);
-                break;
-            case 2:
-                uiActions.click(calcMain.btnNum_Two);
-                break;
-            case 3:
-                uiActions.click(calcMain.btnNum_Three);
-                break;
-            case 4:
-                uiActions.click(calcMain.btnNum_Four);
-                break;
-            case 5:
-                uiActions.click(calcMain.btnNum_Five);
-                break;
-            case 6:
-                uiActions.click(calcMain.btnNum_Six);
-                break;
-            case 7:
-                uiActions.click(calcMain.btnNum_Seven);
-                break;
-            case 8:
-                uiActions.click(calcMain.btnNum_Eight);
-                break;
-            case 9:
-                uiActions.click(calcMain.btnNum_Nine);
-                break;
-        }
-    }
 }

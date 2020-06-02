@@ -9,7 +9,7 @@
         "name" : "SanityTests.phpTravelsWeb",
         "children" : [ {
           "name" : "startSession",
-          "uid" : "323f198068453c21",
+          "uid" : "e0c09dd5ffefc0c2",
           "parentUid" : "37245b9e7795f09f7a41653149ac3c15",
           "status" : "broken",
           "time" : {
@@ -22,65 +22,65 @@
           "parameters" : [ "web" ]
         }, {
           "name" : "Create New User",
-          "uid" : "b84b8c93c783eaa5",
+          "uid" : "4c5b78dcdfb583e",
           "parentUid" : "37245b9e7795f09f7a41653149ac3c15",
           "status" : "passed",
           "time" : {
-            "start" : 1590390222625,
-            "stop" : 1590390228022,
-            "duration" : 5397
+            "start" : 1590818937046,
+            "stop" : 1590818942950,
+            "duration" : 5904
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "web" ]
         }, {
           "name" : "Choose A Flight",
-          "uid" : "f93589567caca0de",
+          "uid" : "84349ae4737212cd",
           "parentUid" : "37245b9e7795f09f7a41653149ac3c15",
           "status" : "passed",
           "time" : {
-            "start" : 1590390229646,
-            "stop" : 1590390250040,
-            "duration" : 20394
+            "start" : 1590818944880,
+            "stop" : 1590818963854,
+            "duration" : 18974
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "web" ]
         }, {
           "name" : "Book A Deal",
-          "uid" : "2e0ea8fc5d3a89e7",
+          "uid" : "513697a46096f78d",
           "parentUid" : "37245b9e7795f09f7a41653149ac3c15",
           "status" : "passed",
           "time" : {
-            "start" : 1590390251746,
-            "stop" : 1590390275067,
-            "duration" : 23321
+            "start" : 1590818965852,
+            "stop" : 1590818986167,
+            "duration" : 20315
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "web" ]
         }, {
           "name" : "Write Message in the Live Chat",
-          "uid" : "b60767f7fbe0378f",
+          "uid" : "5dcc0b7fba32218c",
           "parentUid" : "37245b9e7795f09f7a41653149ac3c15",
-          "status" : "failed",
+          "status" : "broken",
           "time" : {
-            "start" : 1590390277068,
-            "stop" : 1590390291973,
-            "duration" : 14905
+            "start" : 1590818988189,
+            "stop" : 1590819009345,
+            "duration" : 21156
           },
-          "flaky" : true,
+          "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "web" ]
         }, {
           "name" : "Twitter Link",
-          "uid" : "d21cd33c3916a7a3",
+          "uid" : "f22a132cc07418b4",
           "parentUid" : "37245b9e7795f09f7a41653149ac3c15",
           "status" : "passed",
           "time" : {
-            "start" : 1590390293952,
-            "stop" : 1590390296494,
-            "duration" : 2542
+            "start" : 1590819011218,
+            "stop" : 1590819013756,
+            "duration" : 2538
           },
           "flaky" : false,
           "newFailed" : false,
@@ -91,5 +91,43 @@
       "uid" : "907fcd56a7e556afc5b2731f94e172c4"
     } ],
     "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  }, {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "FinalProject",
+      "children" : [ {
+        "name" : "SanityTests.remotemysqlDB",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "892ea7636a17340f",
+          "parentUid" : "746516db642391d3b4d8d1c9ae98f8fe",
+          "status" : "broken",
+          "time" : {
+            "start" : 1590815171916,
+            "stop" : 1590815171932,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Create New User with DB credentials",
+          "uid" : "b9163a6865de40e2",
+          "parentUid" : "746516db642391d3b4d8d1c9ae98f8fe",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1590815171994,
+            "stop" : 1590815171994,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "746516db642391d3b4d8d1c9ae98f8fe"
+      } ],
+      "uid" : "71237ce4ec585b143e690f7292607dcf"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
   } ]
 }

@@ -1,45 +1,25 @@
 [ {
-  "uid" : "f93589567caca0de",
-  "name" : "Choose A Flight",
+  "uid" : "892ea7636a17340f",
+  "name" : "startSession",
   "time" : {
-    "start" : 1590390229646,
-    "stop" : 1590390250040,
-    "duration" : 20394
+    "start" : 1590815171916,
+    "stop" : 1590815171932,
+    "duration" : 16
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "2e0ea8fc5d3a89e7",
-  "name" : "Book A Deal",
+  "uid" : "b9163a6865de40e2",
+  "name" : "Create New User with DB credentials",
   "time" : {
-    "start" : 1590390251746,
-    "stop" : 1590390275067,
-    "duration" : 23321
+    "start" : 1590815171994,
+    "stop" : 1590815171994,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "d21cd33c3916a7a3",
-  "name" : "Twitter Link",
-  "time" : {
-    "start" : 1590390293952,
-    "stop" : 1590390296494,
-    "duration" : 2542
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b84b8c93c783eaa5",
-  "name" : "Create New User",
-  "time" : {
-    "start" : 1590390222625,
-    "stop" : 1590390228022,
-    "duration" : 5397
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "323f198068453c21",
+  "uid" : "e0c09dd5ffefc0c2",
   "name" : "startSession",
   "time" : {
     "start" : 1590390061429,
@@ -49,13 +29,53 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "b60767f7fbe0378f",
+  "uid" : "84349ae4737212cd",
+  "name" : "Choose A Flight",
+  "time" : {
+    "start" : 1590818944880,
+    "stop" : 1590818963854,
+    "duration" : 18974
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "513697a46096f78d",
+  "name" : "Book A Deal",
+  "time" : {
+    "start" : 1590818965852,
+    "stop" : 1590818986167,
+    "duration" : 20315
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f22a132cc07418b4",
+  "name" : "Twitter Link",
+  "time" : {
+    "start" : 1590819011218,
+    "stop" : 1590819013756,
+    "duration" : 2538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dcc0b7fba32218c",
   "name" : "Write Message in the Live Chat",
   "time" : {
-    "start" : 1590390277068,
-    "stop" : 1590390291973,
-    "duration" : 14905
+    "start" : 1590818988189,
+    "stop" : 1590819009345,
+    "duration" : 21156
   },
-  "status" : "failed",
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4c5b78dcdfb583e",
+  "name" : "Create New User",
+  "time" : {
+    "start" : 1590818937046,
+    "stop" : 1590818942950,
+    "duration" : 5904
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

@@ -1,0 +1,1 @@
+{"uuid":"658a1a09-3df5-46b8-88ef-5bd8477374da","name":"SanityTests.remotemysqlDB","children":["5a1eb070-c268-4bc0-add2-adf97ece0adb"],"befores":[],"afters":[{"name":"closeSession","status":"broken","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1590815172010,"stop":1590815172010}],"links":[],"start":1590815171869,"stop":1590815172010}

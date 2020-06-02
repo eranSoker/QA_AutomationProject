@@ -13,7 +13,6 @@ public class managePages extends base
         liveChat = PageFactory.initElements(driver, PageObjects.PHPTravels.chatWindow.class);
     }
 
-
     public static void initElec()
     {
         sideMenuElec = PageFactory.initElements(driver, PageObjects.APIDemos.sideMenu.class);

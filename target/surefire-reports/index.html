@@ -157,11 +157,44 @@
                   <a name="liveChatMessage">
                   </a> <!-- liveChatMessage -->
                   <span class="method-name">liveChatMessage</span>
-                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
-	did not expect to find [true] but found [false]
-	at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:55)
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //button[@class=&apos;lc-1jq1bpl e1m5b1js0&apos;]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Extensions.uiActions.click(uiActions.java:18)
+	at WorkFlows.webFlows.messageInChat(webFlows.java:91)
+	at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:51)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 33 stack frames
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;lc-1jq1bpl e1m5b1js0&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-RDMHKH3&apos;, ip: &apos;192.168.0.59&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\eran\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f97eff507a382005424f6740c206b91b
+*** Element info: {Using=xpath, value=//button[@class=&apos;lc-1jq1bpl e1m5b1js0&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 35 more
+... Removed 35 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Write Message in the Live Chat)                  </em>
@@ -268,25 +301,25 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'bookDeal')
+data.setCell(0, 1, 'liveChatMessage')
 data.setCell(0, 2, 'SanityTests.phpTravelsWeb')
-data.setCell(0, 3, 23323);
+data.setCell(0, 3, 20547);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'chooseFlight')
+data.setCell(1, 1, 'bookDeal')
 data.setCell(1, 2, 'SanityTests.phpTravelsWeb')
-data.setCell(1, 3, 20398);
+data.setCell(1, 3, 20316);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'liveChatMessage')
+data.setCell(2, 1, 'chooseFlight')
 data.setCell(2, 2, 'SanityTests.phpTravelsWeb')
-data.setCell(2, 3, 14130);
+data.setCell(2, 3, 18975);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'createUser')
 data.setCell(3, 2, 'SanityTests.phpTravelsWeb')
-data.setCell(3, 3, 5433);
+data.setCell(3, 3, 5925);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'twitterSync')
 data.setCell(4, 2, 'SanityTests.phpTravelsWeb')
-data.setCell(4, 3, 2545);
+data.setCell(4, 3, 2539);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -324,49 +357,49 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createUser</span>
-                <span class="method-start">14416 ms</span>
+                <span class="method-start">14961 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">20034 ms</span>
+                <span class="method-start">20989 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">chooseFlight</span>
-                <span class="method-start">21474 ms</span>
+                <span class="method-start">22819 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">41881 ms</span>
+                <span class="method-start">41869 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">bookDeal</span>
-                <span class="method-start">43576 ms</span>
+                <span class="method-start">43791 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">66902 ms</span>
+                <span class="method-start">64109 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">liveChatMessage</span>
-                <span class="method-start">68894 ms</span>
+                <span class="method-start">66127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">83817 ms</span>
+                <span class="method-start">87287 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">twitterSync</span>
-                <span class="method-start">85781 ms</span>
+                <span class="method-start">89157 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">88328 ms</span>
+                <span class="method-start">91698 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeSession</span>
-                <span class="method-start">90523 ms</span>
+                <span class="method-start">93727 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

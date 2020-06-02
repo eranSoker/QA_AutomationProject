@@ -1,11 +1,14 @@
 package WorkFlows;
 
 import Extensions.uiActions;
+import Extensions.verifications;
 import Utilities.commonOps;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.Set;
 
 public class webFlows extends commonOps
 {
@@ -113,6 +116,19 @@ public class webFlows extends commonOps
     {
         uiActions.scrollToElement(elem);
         uiActions.click(elem);
-        uiActions.GetUrlAndMatch(getData("twitterUrl"));
+        GetUrlAndMatch(getData("twitterUrl"));
+    }
+
+    @Step("Get Get Url And Match")
+    public static void GetUrlAndMatch (String url)
+    {
+        Set<String> winHandles = driver.getWindowHandles();
+        for (String winHandle : winHandles)
+        {
+            driver.switchTo().window(winHandle);
+            if(driver.getTitle().contains(getData("urlTitle")))
+                break;
+        }
+        verifications.assertTrueCondition(driver.getCurrentUrl().equals((url)));
     }
 }

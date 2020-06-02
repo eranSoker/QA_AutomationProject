@@ -406,11 +406,20 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 1,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "84349ae4737212cd",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/13/allure/#testresult/84349ae4737212cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590818944880,
+        "stop" : 1590818963854,
+        "duration" : 18974
+      }
+    }, {
       "uid" : "f93589567caca0de",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/f93589567caca0de",
       "status" : "passed",
@@ -1379,12 +1388,22 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 23,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 23
+      "total" : 24
     },
     "items" : [ {
+      "uid" : "b9163a6865de40e2",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/13/allure/#testresult/b9163a6865de40e2",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\eran\\.IdeaIC2019.2\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1590815171994,
+        "stop" : 1590815171994,
+        "duration" : 0
+      }
+    }, {
       "uid" : "659a2d6ce15b5228",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Electron/1/allure/#testresult/659a2d6ce15b5228",
       "status" : "broken",
@@ -1567,16 +1586,6 @@
     }, {
       "uid" : "954c5a16015e3820",
       "reportUrl" : "http://localhost:9090/job/Final%20Project/5/allure/#testresult/954c5a16015e3820",
-      "status" : "broken",
-      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
-      "time" : {
-        "start" : 1588089531283,
-        "stop" : 1588089551221,
-        "duration" : 19938
-      }
-    }, {
-      "uid" : "31e7812ae39dca59",
-      "reportUrl" : "http://localhost:9090/job/Final%20Project/4/allure/#testresult/31e7812ae39dca59",
       "status" : "broken",
       "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
       "time" : {
@@ -2009,11 +2018,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 1,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "513697a46096f78d",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/13/allure/#testresult/513697a46096f78d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590818965852,
+        "stop" : 1590818986167,
+        "duration" : 20315
+      }
+    }, {
       "uid" : "2e0ea8fc5d3a89e7",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/2e0ea8fc5d3a89e7",
       "status" : "passed",
@@ -2140,11 +2158,20 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "f22a132cc07418b4",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/13/allure/#testresult/f22a132cc07418b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590819011218,
+        "stop" : 1590819013756,
+        "duration" : 2538
+      }
+    }, {
       "uid" : "d21cd33c3916a7a3",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/d21cd33c3916a7a3",
       "status" : "passed",
@@ -2912,13 +2939,23 @@
   "5cd90cb7bb805bf6d7a36bb0d7e440ef" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     },
     "items" : [ {
+      "uid" : "e0c09dd5ffefc0c2",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/13/allure/#testresult/e0c09dd5ffefc0c2",
+      "status" : "broken",
+      "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+      "time" : {
+        "start" : 1590390061429,
+        "stop" : 1590390061433,
+        "duration" : 4
+      }
+    }, {
       "uid" : "323f198068453c21",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/323f198068453c21",
       "status" : "broken",
@@ -5251,6 +5288,27 @@
       }
     } ]
   },
+  "38a371e0b3c4d6f12dc334a0fea2ac7f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "892ea7636a17340f",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/13/allure/#testresult/892ea7636a17340f",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\eran\\.IdeaIC2019.2\\system\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1590815171916,
+        "stop" : 1590815171932,
+        "duration" : 16
+      }
+    } ]
+  },
   "44f423df3e8dca2ce0410cc77c0af35e" : {
     "statistic" : {
       "failed" : 0,
@@ -5782,11 +5840,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 1,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "4c5b78dcdfb583e",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/13/allure/#testresult/4c5b78dcdfb583e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590818937046,
+        "stop" : 1590818942950,
+        "duration" : 5904
+      }
+    }, {
       "uid" : "b84b8c93c783eaa5",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/b84b8c93c783eaa5",
       "status" : "passed",
@@ -5915,13 +5982,23 @@
   "f3cbd83680b30b72f1bf1b42e7eb987e" : {
     "statistic" : {
       "failed" : 6,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 1,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "5dcc0b7fba32218c",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/13/allure/#testresult/5dcc0b7fba32218c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='lc-1jq1bpl e1m5b1js0']' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1590818988189,
+        "stop" : 1590819009345,
+        "duration" : 21156
+      }
+    }, {
       "uid" : "b60767f7fbe0378f",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/b60767f7fbe0378f",
       "status" : "failed",

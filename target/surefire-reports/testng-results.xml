@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="91277" started-at="2020-05-25T10:03:28 IDT" finished-at="2020-05-25T10:04:59 IDT">
+  <suite name="Suite" duration-ms="94395" started-at="2020-05-30T09:08:42 IDT" finished-at="2020-05-30T09:10:16 IDT">
     <groups>
     </groups>
-    <test name="Web Test" duration-ms="91277" started-at="2020-05-25T10:03:28 IDT" finished-at="2020-05-25T10:04:59 IDT">
+    <test name="Web Test" duration-ms="94395" started-at="2020-05-30T09:08:42 IDT" finished-at="2020-05-30T09:10:16 IDT">
       <class name="SanityTests.phpTravelsWeb">
-        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:SanityTests.phpTravelsWeb@2cab9998]" name="startSession" is-config="true" duration-ms="14379" started-at="2020-05-25T10:03:28 IDT" finished-at="2020-05-25T10:03:42 IDT">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:SanityTests.phpTravelsWeb@bae47a0]" name="startSession" is-config="true" duration-ms="14949" started-at="2020-05-30T09:08:42 IDT" finished-at="2020-05-30T09:08:57 IDT">
           <params>
             <param index="0">
               <value>
@@ -18,42 +18,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startSession -->
-        <test-method status="PASS" signature="createUser()[pri:1, instance:SanityTests.phpTravelsWeb@2cab9998]" name="createUser" duration-ms="5433" started-at="2020-05-25T10:03:42 IDT" description="Create New User" finished-at="2020-05-25T10:03:48 IDT">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:SanityTests.phpTravelsWeb@bae47a0]" name="createUser" duration-ms="5925" started-at="2020-05-30T09:08:57 IDT" description="Create New User" finished-at="2020-05-30T09:09:02 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@2cab9998]" name="afterMethod" is-config="true" duration-ms="1424" started-at="2020-05-25T10:03:48 IDT" finished-at="2020-05-25T10:03:49 IDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@bae47a0]" name="afterMethod" is-config="true" duration-ms="1821" started-at="2020-05-30T09:09:03 IDT" finished-at="2020-05-30T09:09:04 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="chooseFlight()[pri:2, instance:SanityTests.phpTravelsWeb@2cab9998]" name="chooseFlight" duration-ms="20398" started-at="2020-05-25T10:03:49 IDT" description="Choose A Flight" finished-at="2020-05-25T10:04:10 IDT">
+        <test-method status="PASS" signature="chooseFlight()[pri:1, instance:SanityTests.phpTravelsWeb@bae47a0]" name="chooseFlight" duration-ms="18975" started-at="2020-05-30T09:09:04 IDT" description="Choose A Flight" finished-at="2020-05-30T09:09:23 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chooseFlight -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@2cab9998]" name="afterMethod" is-config="true" duration-ms="1693" started-at="2020-05-25T10:04:10 IDT" finished-at="2020-05-25T10:04:11 IDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@bae47a0]" name="afterMethod" is-config="true" duration-ms="1920" started-at="2020-05-30T09:09:23 IDT" finished-at="2020-05-30T09:09:25 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="bookDeal()[pri:3, instance:SanityTests.phpTravelsWeb@2cab9998]" name="bookDeal" duration-ms="23323" started-at="2020-05-25T10:04:11 IDT" description="Book A Deal" finished-at="2020-05-25T10:04:35 IDT">
+        <test-method status="PASS" signature="bookDeal()[pri:2, instance:SanityTests.phpTravelsWeb@bae47a0]" name="bookDeal" duration-ms="20316" started-at="2020-05-30T09:09:25 IDT" description="Book A Deal" finished-at="2020-05-30T09:09:46 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookDeal -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@2cab9998]" name="afterMethod" is-config="true" duration-ms="1979" started-at="2020-05-25T10:04:35 IDT" finished-at="2020-05-25T10:04:37 IDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@bae47a0]" name="afterMethod" is-config="true" duration-ms="2016" started-at="2020-05-30T09:09:46 IDT" finished-at="2020-05-30T09:09:48 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="FAIL" signature="liveChatMessage()[pri:4, instance:SanityTests.phpTravelsWeb@2cab9998]" name="liveChatMessage" duration-ms="14130" started-at="2020-05-25T10:04:37 IDT" description="Write Message in the Live Chat" finished-at="2020-05-25T10:04:51 IDT">
-          <exception class="java.lang.AssertionError">
+        <test-method status="FAIL" signature="liveChatMessage()[pri:3, instance:SanityTests.phpTravelsWeb@bae47a0]" name="liveChatMessage" duration-ms="20547" started-at="2020-05-30T09:09:48 IDT" description="Write Message in the Live Chat" finished-at="2020-05-30T09:10:08 IDT">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[The following asserts failed:
-did not expect to find [true] but found [false]]]>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='lc-1jq1bpl e1m5b1js0']' (tried for 5 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-did not expect to find [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:55)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='lc-1jq1bpl e1m5b1js0']' (tried for 5 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at Extensions.uiActions.click(uiActions.java:18)
+at WorkFlows.webFlows.messageInChat(webFlows.java:91)
+at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:51)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -86,25 +86,59 @@ at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader
 at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
 at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='lc-1jq1bpl e1m5b1js0']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RDMHKH3', ip: '192.168.0.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\eran\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f97eff507a382005424f6740c206b91b
+*** Element info: {Using=xpath, value=//button[@class='lc-1jq1bpl e1m5b1js0']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 35 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- liveChatMessage -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@2cab9998]" name="afterMethod" is-config="true" duration-ms="1963" started-at="2020-05-25T10:04:51 IDT" finished-at="2020-05-25T10:04:53 IDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@bae47a0]" name="afterMethod" is-config="true" duration-ms="1868" started-at="2020-05-30T09:10:09 IDT" finished-at="2020-05-30T09:10:11 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="twitterSync()[pri:5, instance:SanityTests.phpTravelsWeb@2cab9998]" name="twitterSync" duration-ms="2545" started-at="2020-05-25T10:04:53 IDT" description="Twitter Link" finished-at="2020-05-25T10:04:56 IDT">
+        <test-method status="PASS" signature="twitterSync()[pri:4, instance:SanityTests.phpTravelsWeb@bae47a0]" name="twitterSync" duration-ms="2539" started-at="2020-05-30T09:10:11 IDT" description="Twitter Link" finished-at="2020-05-30T09:10:13 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twitterSync -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@2cab9998]" name="afterMethod" is-config="true" duration-ms="2192" started-at="2020-05-25T10:04:56 IDT" finished-at="2020-05-25T10:04:58 IDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SanityTests.phpTravelsWeb@bae47a0]" name="afterMethod" is-config="true" duration-ms="2028" started-at="2020-05-30T09:10:13 IDT" finished-at="2020-05-30T09:10:15 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="closeSession()[pri:0, instance:SanityTests.phpTravelsWeb@2cab9998]" name="closeSession" is-config="true" duration-ms="700" started-at="2020-05-25T10:04:58 IDT" finished-at="2020-05-25T10:04:59 IDT">
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:SanityTests.phpTravelsWeb@bae47a0]" name="closeSession" is-config="true" duration-ms="640" started-at="2020-05-30T09:10:15 IDT" finished-at="2020-05-30T09:10:16 IDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->

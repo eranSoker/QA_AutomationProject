@@ -7,7 +7,7 @@
       "name" : "java.net.UnknownHostException: npm.taobao.org",
       "children" : [ {
         "name" : "startSession",
-        "uid" : "323f198068453c21",
+        "uid" : "e0c09dd5ffefc0c2",
         "parentUid" : "7ad52b6767bc43dc018f5f06a3e91580",
         "status" : "broken",
         "time" : {
@@ -20,28 +20,41 @@
         "parameters" : [ "web" ]
       } ],
       "uid" : "7ad52b6767bc43dc018f5f06a3e91580"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "The following asserts failed:\n\tdid not expect to find [true] but found [false]",
+    }, {
+      "name" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\eran\\.IdeaIC2019.2\\system\\temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "892ea7636a17340f",
+        "parentUid" : "edda67bee5bed9bf113705cc344e73e6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590815171916,
+          "stop" : 1590815171932,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "edda67bee5bed9bf113705cc344e73e6"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='lc-1jq1bpl e1m5b1js0']' (tried for 5 second(s) with 500 milliseconds interval)",
       "children" : [ {
         "name" : "Write Message in the Live Chat",
-        "uid" : "b60767f7fbe0378f",
-        "parentUid" : "0f6810c24787aaa97078c5c08a707a84",
-        "status" : "failed",
+        "uid" : "5dcc0b7fba32218c",
+        "parentUid" : "598a4230eca9284dbff222842fd07643",
+        "status" : "broken",
         "time" : {
-          "start" : 1590390277068,
-          "stop" : 1590390291973,
-          "duration" : 14905
+          "start" : 1590818988189,
+          "stop" : 1590819009345,
+          "duration" : 21156
         },
-        "flaky" : true,
+        "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "web" ]
       } ],
-      "uid" : "0f6810c24787aaa97078c5c08a707a84"
+      "uid" : "598a4230eca9284dbff222842fd07643"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

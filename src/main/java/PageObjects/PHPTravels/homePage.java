@@ -57,7 +57,4 @@ public class homePage
 
     @FindBy(xpath="//i[@class='fab fa-twitter']")
     public WebElement btn_twitter;
-
-    @FindBy(xpath="//i[@class='fab fa-facebook']")
-    public WebElement btn_Facebook;
 }

@@ -1,7 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3cc9ba0-63e6-454f-b2f6-bb627e104aca" name="Default Changelist" comment="" />
+    <list default="true" id="c3cc9ba0-63e6-454f-b2f6-bb627e104aca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/140cdceff21f5d3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/2e0ea8fc5d3a89e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/323f198068453c21.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/5563e845d6404724.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b60767f7fbe0378f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b84b8c93c783eaa5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/cb3d68853b9a0371.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/d21cd33c3916a7a3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/d365fc1058b5ead3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e7118c6742f25a29.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/eda6c067aeca131f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/f93589567caca0de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/executors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/executor.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/executor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/testrun.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-results/testrun.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/uiActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/uiActions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Extensions/verifications.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Extensions/verifications.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Calculator/AppMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Calculator/AppMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/PHPTravels/chatWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/PHPTravels/chatWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/PHPTravels/homePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/PHPTravels/homePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/PHPTravels/resultsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/PHPTravels/resultsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/commonOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/commonOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/manageDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/manageDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/managePages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/managePages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/dbFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/dbFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/desktopFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/desktopFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkFlows/webFlows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkFlows/webFlows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/APIDemosElectron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/APIDemosElectron.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/calculatorDesktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/calculatorDesktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/grafanaAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/grafanaAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/phpTravelsWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/phpTravelsWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SanityTests/remotemysqlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SanityTests/remotemysqlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FinalProject-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FinalProject-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Extensions/uiActions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Extensions/uiActions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Extensions/verifications.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Extensions/verifications.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/Calculator/AppMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/Calculator/AppMainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/PHPTravels/chatWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/PHPTravels/chatWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/PHPTravels/homePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/PHPTravels/homePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PageObjects/PHPTravels/resultsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PageObjects/PHPTravels/resultsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/commonOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/commonOps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/manageDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/manageDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/managePages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/managePages.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkFlows/desktopFlows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkFlows/desktopFlows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkFlows/webFlows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkFlows/webFlows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Web Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Web Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Suite/Web Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Suite/Web Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SanityTests.phpTravelsWeb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-SanityTests.phpTravelsWeb.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SanityTests/APIDemosElectron.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SanityTests/APIDemosElectron.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SanityTests/calculatorDesktop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SanityTests/calculatorDesktop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SanityTests/grafanaAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SanityTests/grafanaAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SanityTests/phpTravelsWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SanityTests/phpTravelsWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SanityTests/remotemysqlDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SanityTests/remotemysqlDB.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +109,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +120,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YmysQtgKleKpsVZDpARVn7XLVx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mobile" />
     <property name="project.structure.last.edited" value="Project" />
@@ -61,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.phpTravelsWeb">
+  <component name="RunManager" selected="TestNG.remotemysqlDB">
     <configuration name="APIDemosElectron" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FinalProject" />
       <extension name="coverage">
@@ -157,9 +255,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.remotemysqlDB" />
         <item itemvalue="TestNG.phpTravelsWeb" />
         <item itemvalue="TestNG.APIDemosElectron" />
-        <item itemvalue="TestNG.remotemysqlDB" />
         <item itemvalue="TestNG.calculatorDesktop" />
         <item itemvalue="TestNG.APIDemosElectron.screenResolution" />
       </list>
@@ -178,31 +276,18 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/PageObjects/PHPTravels/signUpPage.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/SanityTests/grafanaAPI.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/WorkFlows/electronFlows.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/WorkFlows/electronFlows.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="systemInfoElec.txt_ScreenResolution.getText()" language="JAVA" />

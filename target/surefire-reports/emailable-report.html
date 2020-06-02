@@ -9,15 +9,48 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Web Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">91,277</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Web Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">94,395</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Web Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">SanityTests.phpTravelsWeb</td><td><a href="#m0">liveChatMessage</a></td><td rowspan="1">1590390277062</td><td rowspan="1">14130</td></tr><tr><th colspan="4">Web Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">SanityTests.phpTravelsWeb</td><td><a href="#m1">bookDeal</a></td><td rowspan="1">1590390251744</td><td rowspan="1">23323</td></tr><tr class="passedeven"><td><a href="#m2">chooseFlight</a></td><td rowspan="1">1590390229642</td><td rowspan="1">20398</td></tr><tr class="passedeven"><td><a href="#m3">createUser</a></td><td rowspan="1">1590390222584</td><td rowspan="1">5433</td></tr><tr class="passedeven"><td><a href="#m4">twitterSync</a></td><td rowspan="1">1590390293949</td><td rowspan="1">2545</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Web Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">SanityTests.phpTravelsWeb</td><td><a href="#m0">liveChatMessage</a></td><td rowspan="1">1590818988187</td><td rowspan="1">20547</td></tr><tr><th colspan="4">Web Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">SanityTests.phpTravelsWeb</td><td><a href="#m1">bookDeal</a></td><td rowspan="1">1590818965851</td><td rowspan="1">20316</td></tr><tr class="passedeven"><td><a href="#m2">chooseFlight</a></td><td rowspan="1">1590818944879</td><td rowspan="1">18975</td></tr><tr class="passedeven"><td><a href="#m3">createUser</a></td><td rowspan="1">1590818937021</td><td rowspan="1">5925</td></tr><tr class="passedeven"><td><a href="#m4">twitterSync</a></td><td rowspan="1">1590819011217</td><td rowspan="1">2539</td></tr></tbody>
 </table>
-<h2>Web Test</h2><h3 id="m0">SanityTests.phpTravelsWeb#liveChatMessage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
-	did not expect to find [true] but found [false]
-	at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:55)
+<h2>Web Test</h2><h3 id="m0">SanityTests.phpTravelsWeb#liveChatMessage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //button[@class=&apos;lc-1jq1bpl e1m5b1js0&apos;]&apos; (tried for 5 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at Extensions.uiActions.click(uiActions.java:18)
+	at WorkFlows.webFlows.messageInChat(webFlows.java:91)
+	at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:51)
 	at java.util.ArrayList.forEach(ArrayList.java:1257)
-... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@class=&apos;lc-1jq1bpl e1m5b1js0&apos;]&quot;}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-RDMHKH3&apos;, ip: &apos;192.168.0.59&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\eran\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f97eff507a382005424f6740c206b91b
+*** Element info: {Using=xpath, value=//button[@class=&apos;lc-1jq1bpl e1m5b1js0&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 35 more
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">SanityTests.phpTravelsWeb#bookDeal</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">SanityTests.phpTravelsWeb#chooseFlight</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">SanityTests.phpTravelsWeb#createUser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

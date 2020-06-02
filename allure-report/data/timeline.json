@@ -6,21 +6,8 @@
     "children" : [ {
       "name" : "4176@DESKTOP-RDMHKH3.main(1)",
       "children" : [ {
-        "name" : "Twitter Link",
-        "uid" : "eda6c067aeca131f",
-        "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1590390061754,
-          "stop" : 1590390061755,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "web" ]
-      }, {
         "name" : "Write Message in the Live Chat",
-        "uid" : "e7118c6742f25a29",
+        "uid" : "2142fe9e79ade5c6",
         "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
         "status" : "skipped",
         "time" : {
@@ -32,21 +19,8 @@
         "newFailed" : false,
         "parameters" : [ "web" ]
       }, {
-        "name" : "Create New User",
-        "uid" : "d365fc1058b5ead3",
-        "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
-        "status" : "skipped",
-        "time" : {
-          "start" : 1590390061703,
-          "stop" : 1590390061708,
-          "duration" : 5
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "web" ]
-      }, {
         "name" : "Book A Deal",
-        "uid" : "cb3d68853b9a0371",
+        "uid" : "cec84dcb0def4e1d",
         "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
         "status" : "skipped",
         "time" : {
@@ -58,21 +32,8 @@
         "newFailed" : false,
         "parameters" : [ "web" ]
       }, {
-        "name" : "startSession",
-        "uid" : "323f198068453c21",
-        "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
-        "status" : "broken",
-        "time" : {
-          "start" : 1590390061429,
-          "stop" : 1590390061433,
-          "duration" : 4
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "web" ]
-      }, {
         "name" : "Choose A Flight",
-        "uid" : "5563e845d6404724",
+        "uid" : "1c8cead44a151262",
         "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
         "status" : "skipped",
         "time" : {
@@ -83,26 +44,78 @@
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "web" ]
+      }, {
+        "name" : "Twitter Link",
+        "uid" : "6fba80f5cf930de9",
+        "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590390061754,
+          "stop" : 1590390061755,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Create New User",
+        "uid" : "29a52e19e2fc1b6f",
+        "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590390061703,
+          "stop" : 1590390061708,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "e0c09dd5ffefc0c2",
+        "parentUid" : "6aaeac46dc0ffb5256749c00761f1974",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590390061429,
+          "stop" : 1590390061433,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
       } ],
       "uid" : "6aaeac46dc0ffb5256749c00761f1974"
     }, {
       "name" : "9676@DESKTOP-RDMHKH3.main(1)",
       "children" : [ {
-        "name" : "Book A Deal",
-        "uid" : "2e0ea8fc5d3a89e7",
+        "name" : "Create New User",
+        "uid" : "cd4be47365628492",
         "parentUid" : "67ff5ab2613b9b41ba54ed63c2f27e87",
         "status" : "passed",
         "time" : {
-          "start" : 1590390251746,
-          "stop" : 1590390275067,
-          "duration" : 23321
+          "start" : 1590390222625,
+          "stop" : 1590390228022,
+          "duration" : 5397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Write Message in the Live Chat",
+        "uid" : "e7ff34ab06f2ceae",
+        "parentUid" : "67ff5ab2613b9b41ba54ed63c2f27e87",
+        "status" : "failed",
+        "time" : {
+          "start" : 1590390277068,
+          "stop" : 1590390291973,
+          "duration" : 14905
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "web" ]
       }, {
         "name" : "Twitter Link",
-        "uid" : "d21cd33c3916a7a3",
+        "uid" : "37179c28c0e3287",
         "parentUid" : "67ff5ab2613b9b41ba54ed63c2f27e87",
         "status" : "passed",
         "time" : {
@@ -115,7 +128,7 @@
         "parameters" : [ "web" ]
       }, {
         "name" : "Choose A Flight",
-        "uid" : "f93589567caca0de",
+        "uid" : "e35bb1c4ebfe3e92",
         "parentUid" : "67ff5ab2613b9b41ba54ed63c2f27e87",
         "status" : "passed",
         "time" : {
@@ -127,33 +140,119 @@
         "newFailed" : false,
         "parameters" : [ "web" ]
       }, {
-        "name" : "Write Message in the Live Chat",
-        "uid" : "b60767f7fbe0378f",
-        "parentUid" : "67ff5ab2613b9b41ba54ed63c2f27e87",
-        "status" : "failed",
-        "time" : {
-          "start" : 1590390277068,
-          "stop" : 1590390291973,
-          "duration" : 14905
-        },
-        "flaky" : true,
-        "newFailed" : false,
-        "parameters" : [ "web" ]
-      }, {
-        "name" : "Create New User",
-        "uid" : "b84b8c93c783eaa5",
+        "name" : "Book A Deal",
+        "uid" : "76fa17f6d8fe1bb2",
         "parentUid" : "67ff5ab2613b9b41ba54ed63c2f27e87",
         "status" : "passed",
         "time" : {
-          "start" : 1590390222625,
-          "stop" : 1590390228022,
-          "duration" : 5397
+          "start" : 1590390251746,
+          "stop" : 1590390275067,
+          "duration" : 23321
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "web" ]
       } ],
       "uid" : "67ff5ab2613b9b41ba54ed63c2f27e87"
+    }, {
+      "name" : "6892@DESKTOP-RDMHKH3.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "892ea7636a17340f",
+        "parentUid" : "cb80890586fa77675b370cd3a31f63a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590815171916,
+          "stop" : 1590815171932,
+          "duration" : 16
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Create New User with DB credentials",
+        "uid" : "b9163a6865de40e2",
+        "parentUid" : "cb80890586fa77675b370cd3a31f63a5",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590815171994,
+          "stop" : 1590815171994,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb80890586fa77675b370cd3a31f63a5"
+    }, {
+      "name" : "12024@DESKTOP-RDMHKH3.main(1)",
+      "children" : [ {
+        "name" : "Choose A Flight",
+        "uid" : "84349ae4737212cd",
+        "parentUid" : "25ec77f7e0e0253e9488d488d73d2b63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590818944880,
+          "stop" : 1590818963854,
+          "duration" : 18974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Twitter Link",
+        "uid" : "f22a132cc07418b4",
+        "parentUid" : "25ec77f7e0e0253e9488d488d73d2b63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590819011218,
+          "stop" : 1590819013756,
+          "duration" : 2538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Create New User",
+        "uid" : "4c5b78dcdfb583e",
+        "parentUid" : "25ec77f7e0e0253e9488d488d73d2b63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590818937046,
+          "stop" : 1590818942950,
+          "duration" : 5904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Write Message in the Live Chat",
+        "uid" : "5dcc0b7fba32218c",
+        "parentUid" : "25ec77f7e0e0253e9488d488d73d2b63",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590818988189,
+          "stop" : 1590819009345,
+          "duration" : 21156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Book A Deal",
+        "uid" : "513697a46096f78d",
+        "parentUid" : "25ec77f7e0e0253e9488d488d73d2b63",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590818965852,
+          "stop" : 1590818986167,
+          "duration" : 20315
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "25ec77f7e0e0253e9488d488d73d2b63"
     } ],
     "uid" : "a5cb032ee3cfab62d1fa7a97f99b7e59"
   } ]

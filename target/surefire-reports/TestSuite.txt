@@ -1,10 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 93.511 s <<< FAILURE! - in TestSuite
-liveChatMessage(SanityTests.phpTravelsWeb)  Time elapsed: 14.91 s  <<< FAILURE!
-java.lang.AssertionError: 
-The following asserts failed:
-	did not expect to find [true] but found [false]
-	at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:55)
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 95.466 s <<< FAILURE! - in TestSuite
+liveChatMessage(SanityTests.phpTravelsWeb)  Time elapsed: 21.158 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //button[@class='lc-1jq1bpl e1m5b1js0']' (tried for 5 second(s) with 500 milliseconds interval)
+	at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:51)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//button[@class='lc-1jq1bpl e1m5b1js0']"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RDMHKH3', ip: '192.168.0.59', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.138 (8c6c7ba89cc9..., userDataDir: C:\Users\eran\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f97eff507a382005424f6740c206b91b
+*** Element info: {Using=xpath, value=//button[@class='lc-1jq1bpl e1m5b1js0']}
+	at SanityTests.phpTravelsWeb.liveChatMessage(phpTravelsWeb.java:51)
 

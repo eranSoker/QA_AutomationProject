@@ -8,9 +8,6 @@ public class AppMainPage
     @FindBy(xpath="//*[@AutomationId='CalculatorResults']")
     public WebElement txt_Result;
 
-    @FindBy(name="Clear")
-    public WebElement btnFun_Clear;
-
     @FindBy(name="Plus")
     public WebElement btnFun_Plus;
 

@@ -1,0 +1,655 @@
+{
+  "uid" : "f22a132cc07418b4",
+  "name" : "Twitter Link",
+  "fullName" : "SanityTests.phpTravelsWeb.twitterSync",
+  "historyId" : "17026faeab9c0913451aa7c3522cd506",
+  "time" : {
+    "start" : 1590819011218,
+    "stop" : 1590819013756,
+    "duration" : 2538
+  },
+  "description" : "Test Description: Check that Twitter link is working",
+  "descriptionHtml" : "<p>Test Description: Check that Twitter link is working</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1590818922085,
+      "stop" : 1590818937010,
+      "duration" : 14925
+    },
+    "description" : "Step Description: Executed once and before all tests in the class",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Data",
+      "time" : {
+        "start" : 1590818922110,
+        "stop" : 1590818922127,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "BrowserName"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Choose Browser",
+      "time" : {
+        "start" : 1590818922127,
+        "stop" : 1590818935993,
+        "duration" : 13866
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Chrome Driver Setup",
+        "time" : {
+          "start" : 1590818922127,
+          "stop" : 1590818926998,
+          "duration" : 4871
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get Data",
+        "time" : {
+          "start" : 1590818929146,
+          "stop" : 1590818929156,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "nodeName",
+          "value" : "url"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get Data",
+        "time" : {
+          "start" : 1590818935969,
+          "stop" : 1590818935973,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "nodeName",
+          "value" : "TimeOut"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "browserType",
+        "value" : "Chrome"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Data",
+      "time" : {
+        "start" : 1590818936035,
+        "stop" : 1590818936036,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "dbURL"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Data",
+      "time" : {
+        "start" : 1590818936037,
+        "stop" : 1590818936038,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "dbUser"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Data",
+      "time" : {
+        "start" : 1590818936038,
+        "stop" : 1590818936039,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "dbPassword"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Connect to Data Base",
+      "time" : {
+        "start" : 1590818936042,
+        "stop" : 1590818937009,
+        "duration" : 967
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "dbURL",
+        "value" : "jdbc:mysql://remotemysql.com:3306/NZhFOC9MRH"
+      }, {
+        "name" : "user",
+        "value" : "NZhFOC9MRH"
+      }, {
+        "name" : "pass",
+        "value" : "DQMlbLu3IC"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Description: Check that Twitter link is working",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Check Link is working",
+      "time" : {
+        "start" : 1590819011231,
+        "stop" : 1590819013752,
+        "duration" : 2521
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Scroll To Element",
+        "time" : {
+          "start" : 1590819011241,
+          "stop" : 1590819011253,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (f97eff507a382005424f6740c206b91b)] -> xpath: //i[@class='fab fa-twitter']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1590819011265,
+          "stop" : 1590819011411,
+          "duration" : 146
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (f97eff507a382005424f6740c206b91b)] -> xpath: //i[@class='fab fa-twitter']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get Data",
+        "time" : {
+          "start" : 1590819011412,
+          "stop" : 1590819011413,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "nodeName",
+          "value" : "twitterUrl"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "Get Get Url And Match",
+        "time" : {
+          "start" : 1590819011413,
+          "stop" : 1590819013752,
+          "duration" : 2339
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get Data",
+          "time" : {
+            "start" : 1590819011706,
+            "stop" : 1590819011709,
+            "duration" : 3
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "nodeName",
+            "value" : "urlTitle"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Get Data",
+          "time" : {
+            "start" : 1590819013749,
+            "stop" : 1590819013750,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "nodeName",
+            "value" : "urlTitle"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        }, {
+          "name" : "Verify Condition is True",
+          "time" : {
+            "start" : 1590819013752,
+            "stop" : 1590819013752,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "bol",
+            "value" : "true"
+          } ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "url",
+          "value" : "https://twitter.com/phptravels"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (f97eff507a382005424f6740c206b91b)] -> xpath: //i[@class='fab fa-twitter']]"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 7,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Get Data",
+      "time" : {
+        "start" : 1590819013755,
+        "stop" : 1590819013756,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "twitterUrl"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify Text to Text",
+      "time" : {
+        "start" : 1590819013756,
+        "stop" : 1590819013756,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actualText",
+        "value" : "https://twitter.com/phptravels"
+      }, {
+        "name" : "expectedText",
+        "value" : "https://twitter.com/phptravels"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1590819013758,
+      "stop" : 1590819015786,
+      "duration" : 2028
+    },
+    "description" : "Step Description: Invoked after the execution of each test method in the class",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get Data",
+      "time" : {
+        "start" : 1590819013758,
+        "stop" : 1590819013761,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "nodeName",
+        "value" : "url"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1590819015788,
+      "stop" : 1590819016427,
+      "duration" : 639
+    },
+    "description" : "Step Description: Executed once and after all tests in the class",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Disconnect from Data Base",
+      "time" : {
+        "start" : 1590819015788,
+        "stop" : 1590819015790,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "twitterSync"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.phpTravelsWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RDMHKH3"
+  }, {
+    "name" : "thread",
+    "value" : "12024@DESKTOP-RDMHKH3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "37179c28c0e3287",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390293952,
+        "stop" : 1590390296494,
+        "duration" : 2542
+      }
+    }, {
+      "uid" : "6fba80f5cf930de9",
+      "status" : "skipped",
+      "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+      "time" : {
+        "start" : 1590390061754,
+        "stop" : 1590390061755,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 1,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "d21cd33c3916a7a3",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/d21cd33c3916a7a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590390293952,
+          "stop" : 1590390296494,
+          "duration" : 2542
+        }
+      }, {
+        "uid" : "3c812749314e5e97",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/3c812749314e5e97",
+        "status" : "skipped",
+        "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+        "time" : {
+          "start" : 1590390061754,
+          "stop" : 1590390061755,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "478ad0f49b6cb101",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/10/allure/#testresult/478ad0f49b6cb101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590215523492,
+          "stop" : 1590215526069,
+          "duration" : 2577
+        }
+      }, {
+        "uid" : "1752ccbe3bf356fe",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/9/allure/#testresult/1752ccbe3bf356fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590215125843,
+          "stop" : 1590215128578,
+          "duration" : 2735
+        }
+      }, {
+        "uid" : "a60f7804f2f9320b",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/8/allure/#testresult/a60f7804f2f9320b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590214874754,
+          "stop" : 1590214877574,
+          "duration" : 2820
+        }
+      }, {
+        "uid" : "5734da67e7e67a31",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/7/allure/#testresult/5734da67e7e67a31",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590214327211,
+          "stop" : 1590214332775,
+          "duration" : 5564
+        }
+      }, {
+        "uid" : "7b3c96990e4c5f4a",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/6/allure/#testresult/7b3c96990e4c5f4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590211171105,
+          "stop" : 1590211174151,
+          "duration" : 3046
+        }
+      }, {
+        "uid" : "7207897c392121ca",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/5/allure/#testresult/7207897c392121ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590210182075,
+          "stop" : 1590210185078,
+          "duration" : 3003
+        }
+      }, {
+        "uid" : "f17706776386d067",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/4/allure/#testresult/f17706776386d067",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590147937824,
+          "stop" : 1590147940854,
+          "duration" : 3030
+        }
+      }, {
+        "uid" : "585c622c9633b3c2",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/3/allure/#testresult/585c622c9633b3c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1590147810229,
+          "stop" : 1590147814731,
+          "duration" : 4502
+        }
+      }, {
+        "uid" : "4c7c59b344c21db0",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/2/allure/#testresult/4c7c59b344c21db0",
+        "status" : "failed",
+        "statusDetails" : "The following asserts failed:\n\tdid not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1590146970426,
+          "stop" : 1590146973926,
+          "duration" : 3500
+        }
+      }, {
+        "uid" : "2e065c78f2736f1",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/1/allure/#testresult/2e065c78f2736f1",
+        "status" : "failed",
+        "statusDetails" : "The following asserts failed:\n\tdid not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1590146393095,
+          "stop" : 1590146396167,
+          "duration" : 3072
+        }
+      }, {
+        "uid" : "10494d06eddfb952",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Electron/3/allure/#testresult/10494d06eddfb952",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589786959538,
+          "stop" : 1589786964615,
+          "duration" : 5077
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f22a132cc07418b4.json",
+  "parameterValues" : [ "web" ]
+}

@@ -8,6 +8,8 @@ import java.util.List;
 
 public class resultsPage extends commonOps
 {
+    private static final int flightResult = 1;
+
     @FindBy(xpath="//h3[@class='heading-title']")
     public WebElement txt_FromToTitle;
 
@@ -17,7 +19,6 @@ public class resultsPage extends commonOps
     @FindBy(xpath="//ul[@id='LIST']/li")
     public List<WebElement> list_Results;
 
-    private static final int flightResult = 1;
     @FindBy(xpath="(//button[@class='btn btn-primary btn-block theme-search-results-item-price-btn'])["+ flightResult +"]")
     public WebElement btn_BookFlight;
 

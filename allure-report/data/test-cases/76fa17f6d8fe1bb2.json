@@ -1,5 +1,5 @@
 {
-  "uid" : "2e0ea8fc5d3a89e7",
+  "uid" : "76fa17f6d8fe1bb2",
   "name" : "Book A Deal",
   "fullName" : "SanityTests.phpTravelsWeb.bookDeal",
   "historyId" : "5c108ada46cea6a9a0df942856133394",
@@ -27,8 +27,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "description" : "Test Description: book a deal and make sure the details are match to actual result",
@@ -57,8 +57,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -75,15 +75,15 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "hasContent" : true,
       "stepsCount" : 2,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Choose a flight",
       "time" : {
@@ -108,8 +108,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -126,8 +126,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -144,8 +144,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -162,8 +162,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -183,8 +183,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Mouse Hover to Element",
         "time" : {
@@ -204,8 +204,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -222,8 +222,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -243,8 +243,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Mouse Hover to Element",
         "time" : {
@@ -264,8 +264,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -282,8 +282,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Mouse Hover to Element",
         "time" : {
@@ -303,8 +303,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Mouse Hover to Element",
         "time" : {
@@ -324,8 +324,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -342,8 +342,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -360,15 +360,15 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "hasContent" : true,
       "stepsCount" : 14,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Select one deal and book",
       "time" : {
@@ -393,15 +393,15 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "hasContent" : true,
       "stepsCount" : 1,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify Text in Element",
       "time" : {
@@ -421,8 +421,8 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify Condition is True",
       "time" : {
@@ -439,8 +439,8 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify Condition is True",
       "time" : {
@@ -457,8 +457,8 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify Text in Element",
       "time" : {
@@ -478,15 +478,15 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 24,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "afterMethod",
@@ -502,8 +502,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "closeSession",
     "time" : {
@@ -518,8 +518,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -560,145 +560,12 @@
     "value" : "web"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "cb3d68853b9a0371",
-      "status" : "skipped",
-      "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
-      "time" : {
-        "start" : 1590390061740,
-        "stop" : 1590390061740,
-        "duration" : 0
-      }
-    } ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 2,
-        "skipped" : 1,
-        "passed" : 10,
-        "unknown" : 0,
-        "total" : 13
-      },
-      "items" : [ {
-        "uid" : "a0669abc7e14db10",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/a0669abc7e14db10",
-        "status" : "skipped",
-        "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
-        "time" : {
-          "start" : 1590390061740,
-          "stop" : 1590390061740,
-          "duration" : 0
-        }
-      }, {
-        "uid" : "6713f906aaac33b5",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/10/allure/#testresult/6713f906aaac33b5",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590215483529,
-          "stop" : 1590215505792,
-          "duration" : 22263
-        }
-      }, {
-        "uid" : "4b52e13ec21ef642",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/9/allure/#testresult/4b52e13ec21ef642",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//h5[@class='font-serif font400'])[1]' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1590215072673,
-          "stop" : 1590215107010,
-          "duration" : 34337
-        }
-      }, {
-        "uid" : "a3965ab93dda5fa9",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/8/allure/#testresult/a3965ab93dda5fa9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590214834193,
-          "stop" : 1590214855831,
-          "duration" : 21638
-        }
-      }, {
-        "uid" : "8656432c7c018a6c",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/7/allure/#testresult/8656432c7c018a6c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590214289893,
-          "stop" : 1590214310080,
-          "duration" : 20187
-        }
-      }, {
-        "uid" : "b980ac28b4527123",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/6/allure/#testresult/b980ac28b4527123",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590211133221,
-          "stop" : 1590211153243,
-          "duration" : 20022
-        }
-      }, {
-        "uid" : "ec637d9be7359aee",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/5/allure/#testresult/ec637d9be7359aee",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590210143489,
-          "stop" : 1590210164064,
-          "duration" : 20575
-        }
-      }, {
-        "uid" : "8618a148404bd8ca",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/4/allure/#testresult/8618a148404bd8ca",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590147885586,
-          "stop" : 1590147905735,
-          "duration" : 20149
-        }
-      }, {
-        "uid" : "90ea1e032a66dee2",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/3/allure/#testresult/90ea1e032a66dee2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590147759585,
-          "stop" : 1590147778327,
-          "duration" : 18742
-        }
-      }, {
-        "uid" : "c5f09f9215795bd1",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/2/allure/#testresult/c5f09f9215795bd1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590146933680,
-          "stop" : 1590146953781,
-          "duration" : 20101
-        }
-      }, {
-        "uid" : "162d317708c1abcb",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/1/allure/#testresult/162d317708c1abcb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590146357000,
-          "stop" : 1590146375267,
-          "duration" : 18267
-        }
-      }, {
-        "uid" : "aae0feb49cabf879",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Electron/3/allure/#testresult/aae0feb49cabf879",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: Flights' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1589786918566,
-          "stop" : 1589786942962,
-          "duration" : 24396
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "2e0ea8fc5d3a89e7.json",
+  "source" : "76fa17f6d8fe1bb2.json",
   "parameterValues" : [ "web" ]
 }

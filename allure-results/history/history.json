@@ -406,11 +406,20 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 1,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f93589567caca0de",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/f93589567caca0de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390229646,
+        "stop" : 1590390250040,
+        "duration" : 20394
+      }
+    }, {
       "uid" : "5efb19e24c503839",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/5efb19e24c503839",
       "status" : "skipped",
@@ -2000,11 +2009,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 1,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "2e0ea8fc5d3a89e7",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/2e0ea8fc5d3a89e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390251746,
+        "stop" : 1590390275067,
+        "duration" : 23321
+      }
+    }, {
       "uid" : "a0669abc7e14db10",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/a0669abc7e14db10",
       "status" : "skipped",
@@ -2122,11 +2140,20 @@
       "failed" : 2,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "d21cd33c3916a7a3",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/d21cd33c3916a7a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390293952,
+        "stop" : 1590390296494,
+        "duration" : 2542
+      }
+    }, {
       "uid" : "3c812749314e5e97",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/3c812749314e5e97",
       "status" : "skipped",
@@ -2885,13 +2912,23 @@
   "5cd90cb7bb805bf6d7a36bb0d7e440ef" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "323f198068453c21",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/323f198068453c21",
+      "status" : "broken",
+      "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+      "time" : {
+        "start" : 1590390061429,
+        "stop" : 1590390061433,
+        "duration" : 4
+      }
+    }, {
       "uid" : "92cc3630b088d9c1",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/92cc3630b088d9c1",
       "status" : "broken",
@@ -5745,11 +5782,20 @@
       "failed" : 0,
       "broken" : 6,
       "skipped" : 1,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "b84b8c93c783eaa5",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/b84b8c93c783eaa5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1590390222625,
+        "stop" : 1590390228022,
+        "duration" : 5397
+      }
+    }, {
       "uid" : "d975ee78d33cd36c",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/d975ee78d33cd36c",
       "status" : "skipped",
@@ -5868,14 +5914,24 @@
   },
   "f3cbd83680b30b72f1bf1b42e7eb987e" : {
     "statistic" : {
-      "failed" : 5,
+      "failed" : 6,
       "broken" : 3,
       "skipped" : 1,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "b60767f7fbe0378f",
+      "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/b60767f7fbe0378f",
+      "status" : "failed",
+      "statusDetails" : "The following asserts failed:\n\tdid not expect to find [true] but found [false]",
+      "time" : {
+        "start" : 1590390277068,
+        "stop" : 1590390291973,
+        "duration" : 14905
+      }
+    }, {
       "uid" : "c8692349532b70ec",
       "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/c8692349532b70ec",
       "status" : "skipped",

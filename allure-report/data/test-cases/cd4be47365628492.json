@@ -1,5 +1,5 @@
 {
-  "uid" : "b84b8c93c783eaa5",
+  "uid" : "cd4be47365628492",
   "name" : "Create New User",
   "fullName" : "SanityTests.phpTravelsWeb.createUser",
   "historyId" : "b724e36ce2e6cc42d4e4ae7aabce3c4d",
@@ -27,8 +27,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "description" : "Test Description: Create New User",
@@ -57,8 +57,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -75,8 +75,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -96,8 +96,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -117,8 +117,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -138,8 +138,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -159,8 +159,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -180,8 +180,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -201,8 +201,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Close popup",
         "time" : {
@@ -219,8 +219,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -237,15 +237,15 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "hasContent" : true,
       "stepsCount" : 10,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify Text in Element",
       "time" : {
@@ -265,15 +265,15 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 12,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "afterMethod",
@@ -289,8 +289,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "closeSession",
     "time" : {
@@ -305,8 +305,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -347,149 +347,12 @@
     "value" : "web"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "d365fc1058b5ead3",
-      "status" : "skipped",
-      "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
-      "time" : {
-        "start" : 1590390061703,
-        "stop" : 1590390061708,
-        "duration" : 5
-      }
-    } ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 6,
-        "skipped" : 1,
-        "passed" : 6,
-        "unknown" : 0,
-        "total" : 13
-      },
-      "items" : [ {
-        "uid" : "d975ee78d33cd36c",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/d975ee78d33cd36c",
-        "status" : "skipped",
-        "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
-        "time" : {
-          "start" : 1590390061703,
-          "stop" : 1590390061708,
-          "duration" : 5
-        }
-      }, {
-        "uid" : "2a9d9843a5afac54",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/10/allure/#testresult/2a9d9843a5afac54",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590215457435,
-          "stop" : 1590215462386,
-          "duration" : 4951
-        }
-      }, {
-        "uid" : "637812551f3e6715",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/9/allure/#testresult/637812551f3e6715",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1590215034366,
-          "stop" : 1590215053026,
-          "duration" : 18660
-        }
-      }, {
-        "uid" : "4e065be3e948a476",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/8/allure/#testresult/4e065be3e948a476",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1590214795713,
-          "stop" : 1590214814684,
-          "duration" : 18971
-        }
-      }, {
-        "uid" : "e1b3d5a2e1159008",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/7/allure/#testresult/e1b3d5a2e1159008",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590214265796,
-          "stop" : 1590214271084,
-          "duration" : 5288
-        }
-      }, {
-        "uid" : "268930089f436e97",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/6/allure/#testresult/268930089f436e97",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1590211096224,
-          "stop" : 1590211114732,
-          "duration" : 18508
-        }
-      }, {
-        "uid" : "67c41f07ea307320",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/5/allure/#testresult/67c41f07ea307320",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590210121256,
-          "stop" : 1590210126208,
-          "duration" : 4952
-        }
-      }, {
-        "uid" : "b599ec74517a1f5a",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/4/allure/#testresult/b599ec74517a1f5a",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1590147846002,
-          "stop" : 1590147864455,
-          "duration" : 18453
-        }
-      }, {
-        "uid" : "afc11a2157f7e730",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/3/allure/#testresult/afc11a2157f7e730",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590147733433,
-          "stop" : 1590147738265,
-          "duration" : 4832
-        }
-      }, {
-        "uid" : "77816ef78f9565b9",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/2/allure/#testresult/77816ef78f9565b9",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1590146896273,
-          "stop" : 1590146914794,
-          "duration" : 18521
-        }
-      }, {
-        "uid" : "63720dbd54432cb1",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/1/allure/#testresult/63720dbd54432cb1",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1590146319718,
-          "stop" : 1590146338161,
-          "duration" : 18443
-        }
-      }, {
-        "uid" : "e9eaa684f590337e",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Electron/3/allure/#testresult/e9eaa684f590337e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1589786886992,
-          "stop" : 1589786892959,
-          "duration" : 5967
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "b84b8c93c783eaa5.json",
+  "source" : "cd4be47365628492.json",
   "parameterValues" : [ "web" ]
 }

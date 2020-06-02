@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 @Listeners(Utilities.listeners.class)
 public class calculatorDesktop extends commonOps
 {
-    @Test(priority = 1, description = "Calculate Something")
+    @Test(priority = 0, description = "Calculate Something")
     @Description("Test Description: Verify calculator functions and display result")
     public void calculate()
     {

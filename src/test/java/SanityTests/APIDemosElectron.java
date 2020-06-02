@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 @Listeners(Utilities.listeners.class)
 public class APIDemosElectron extends commonOps
 {
-    @Test(priority = 1, description = "Reply pong")
+    @Test(priority = 0, description = "Reply pong")
     @Description("Test Description: Get message reply: pong")
     public void replyPong()
     {
@@ -18,7 +18,7 @@ public class APIDemosElectron extends commonOps
         verifications.assertPartialTextInElement(communicationElec.txt_PingReply, "pong");
     }
 
-    @Test(priority = 2, description = "Screen Resolution")
+    @Test(priority = 1, description = "Screen Resolution")
     @Description("Test Description: Get screen resolution")
     public void screenResolution()
     {
@@ -26,7 +26,7 @@ public class APIDemosElectron extends commonOps
         verifications.assertPartialTextInElement(systemInfoElec.txt_ScreenResolution, "1536px x 864px");
     }
 
-    @Test(priority = 3, description = "ERROR")
+    @Test(priority = 2, description = "ERROR")
     @Description("Test Description: ERROR occurred - screenshot is taken automatically")
     public void error()
     {

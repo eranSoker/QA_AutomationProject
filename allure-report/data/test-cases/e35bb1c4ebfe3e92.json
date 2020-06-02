@@ -1,5 +1,5 @@
 {
-  "uid" : "f93589567caca0de",
+  "uid" : "e35bb1c4ebfe3e92",
   "name" : "Choose A Flight",
   "fullName" : "SanityTests.phpTravelsWeb.chooseFlight",
   "historyId" : "a01993458a6298fa8164a3ef9a4b8d03",
@@ -27,8 +27,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "testStage" : {
     "description" : "Test Description: Choosing A Flight from one Destination to second Destination for 2 passenger and Verify the Number of Results",
@@ -57,8 +57,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -75,8 +75,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -93,8 +93,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -111,8 +111,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -132,8 +132,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Mouse Hover to Element",
         "time" : {
@@ -153,8 +153,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -171,8 +171,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Send Text to Text-Field",
         "time" : {
@@ -192,8 +192,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Mouse Hover to Element",
         "time" : {
@@ -213,8 +213,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -231,8 +231,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Mouse Hover to Element",
         "time" : {
@@ -252,8 +252,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Mouse Hover to Element",
         "time" : {
@@ -273,8 +273,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -291,8 +291,8 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       }, {
         "name" : "Click on Element",
         "time" : {
@@ -309,15 +309,15 @@
         } ],
         "hasContent" : true,
         "stepsCount" : 0,
-        "shouldDisplayMessage" : false,
-        "attachmentsCount" : 0
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
       } ],
       "attachments" : [ ],
       "parameters" : [ ],
       "hasContent" : true,
       "stepsCount" : 14,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify Element is Displayed",
       "time" : {
@@ -334,8 +334,8 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     }, {
       "name" : "Verify the number of Elements Equals to Value",
       "time" : {
@@ -355,15 +355,15 @@
       } ],
       "hasContent" : true,
       "stepsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "hasContent" : true,
     "stepsCount" : 17,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ {
     "name" : "afterMethod",
@@ -379,8 +379,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   }, {
     "name" : "closeSession",
     "time" : {
@@ -395,8 +395,8 @@
     "parameters" : [ ],
     "hasContent" : false,
     "stepsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -437,144 +437,12 @@
     "value" : "web"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "5563e845d6404724",
-      "status" : "skipped",
-      "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
-      "time" : {
-        "start" : 1590390061736,
-        "stop" : 1590390061736,
-        "duration" : 0
-      }
-    } ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 1,
-        "skipped" : 1,
-        "passed" : 11,
-        "unknown" : 0,
-        "total" : 13
-      },
-      "items" : [ {
-        "uid" : "5efb19e24c503839",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/5efb19e24c503839",
-        "status" : "skipped",
-        "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
-        "time" : {
-          "start" : 1590390061736,
-          "stop" : 1590390061736,
-          "duration" : 0
-        }
-      }, {
-        "uid" : "dff327612b68f21e",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/10/allure/#testresult/dff327612b68f21e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590215464499,
-          "stop" : 1590215481529,
-          "duration" : 17030
-        }
-      }, {
-        "uid" : "a9a2c1aee9fac34a",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/9/allure/#testresult/a9a2c1aee9fac34a",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590215055213,
-          "stop" : 1590215070534,
-          "duration" : 15321
-        }
-      }, {
-        "uid" : "59b9e86e9df29f8b",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/8/allure/#testresult/59b9e86e9df29f8b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590214816897,
-          "stop" : 1590214832645,
-          "duration" : 15748
-        }
-      }, {
-        "uid" : "66dd561f7b259b70",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/7/allure/#testresult/66dd561f7b259b70",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590214272709,
-          "stop" : 1590214287847,
-          "duration" : 15138
-        }
-      }, {
-        "uid" : "5cebbe6f94be292f",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/6/allure/#testresult/5cebbe6f94be292f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590211116757,
-          "stop" : 1590211131291,
-          "duration" : 14534
-        }
-      }, {
-        "uid" : "42bc9eb5df221e47",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/5/allure/#testresult/42bc9eb5df221e47",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590210128182,
-          "stop" : 1590210142168,
-          "duration" : 13986
-        }
-      }, {
-        "uid" : "6b3d67c050e12ac8",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/4/allure/#testresult/6b3d67c050e12ac8",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590147866423,
-          "stop" : 1590147883682,
-          "duration" : 17259
-        }
-      }, {
-        "uid" : "eae9553a0e51f1ba",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/3/allure/#testresult/eae9553a0e51f1ba",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590147740313,
-          "stop" : 1590147757709,
-          "duration" : 17396
-        }
-      }, {
-        "uid" : "8297a4ccfd361778",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/2/allure/#testresult/8297a4ccfd361778",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590146916840,
-          "stop" : 1590146931805,
-          "duration" : 14965
-        }
-      }, {
-        "uid" : "53a9ee18ed69635e",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/1/allure/#testresult/53a9ee18ed69635e",
-        "status" : "passed",
-        "time" : {
-          "start" : 1590146340299,
-          "stop" : 1590146355018,
-          "duration" : 14719
-        }
-      }, {
-        "uid" : "93c36cc6fe31c69d",
-        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Electron/3/allure/#testresult/93c36cc6fe31c69d",
-        "status" : "broken",
-        "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.linkText: Flights' (tried for 5 second(s) with 500 milliseconds interval)",
-        "time" : {
-          "start" : 1589786895137,
-          "stop" : 1589786916508,
-          "duration" : 21371
-        }
-      } ]
-    },
     "tags" : [ ]
   },
-  "source" : "f93589567caca0de.json",
+  "source" : "e35bb1c4ebfe3e92.json",
   "parameterValues" : [ "web" ]
 }

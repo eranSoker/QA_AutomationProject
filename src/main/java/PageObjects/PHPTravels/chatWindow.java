@@ -17,9 +17,6 @@ public class chatWindow
     @FindBy(xpath="//input[@id='name']")
     public WebElement txtField_Name;
 
-    @FindBy(xpath="(//input[@class='lc-1gz7fd7 e1xplv9i0'])[2]")
-    public WebElement txtField_WhatsApp ;
-
     @FindBy(xpath="//input[@id='email']")
     public WebElement txtField_Email;
 

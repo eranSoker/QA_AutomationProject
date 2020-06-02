@@ -1,0 +1,309 @@
+{
+  "uid" : "b9163a6865de40e2",
+  "name" : "Create New User with DB credentials",
+  "fullName" : "SanityTests.remotemysqlDB.createUserDB",
+  "historyId" : "7f132da707884170e792c4e69eb070c4",
+  "time" : {
+    "start" : 1590815171994,
+    "stop" : 1590815171994,
+    "duration" : 0
+  },
+  "description" : "Test Description: Create New User with DB credentials",
+  "descriptionHtml" : "<p>Test Description: Create New User with DB credentials</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\eran\\.IdeaIC2019.2\\system\\temp-testng-customsuite.xml",
+  "statusTrace" : "org.testng.TestNGException: \nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\eran\\.IdeaIC2019.2\\system\\temp-testng-customsuite.xml\r\n\tat org.testng.internal.Parameters.createParams(Parameters.java:289)\r\n\tat org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:721)\r\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\r\n\tat org.testng.TestRunner.run(TestRunner.java:591)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\r\n\tat org.testng.TestNG.run(TestNG.java:1000)\r\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\r\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1590815172010,
+      "stop" : 1590815172010,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1590815172010,
+      "stop" : 1590815172010,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SanityTests.remotemysqlDB"
+  }, {
+    "name" : "testClass",
+    "value" : "SanityTests.remotemysqlDB"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUserDB"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "FinalProject"
+  }, {
+    "name" : "subSuite",
+    "value" : "SanityTests.remotemysqlDB"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RDMHKH3"
+  }, {
+    "name" : "thread",
+    "value" : "6892@DESKTOP-RDMHKH3.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 23,
+        "skipped" : 1,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 24
+      },
+      "items" : [ {
+        "uid" : "659a2d6ce15b5228",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Electron/1/allure/#testresult/659a2d6ce15b5228",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "ce1f0d1276ea4c55",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/22/allure/#testresult/ce1f0d1276ea4c55",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "f17b28baf802be8",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/21/allure/#testresult/f17b28baf802be8",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "3a7fb3a156b2d25e",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/20/allure/#testresult/3a7fb3a156b2d25e",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "1591d9db68308a51",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/19/allure/#testresult/1591d9db68308a51",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "987ca80f5e5a83c5",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/18/allure/#testresult/987ca80f5e5a83c5",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "ce536f3b4210b177",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/17/allure/#testresult/ce536f3b4210b177",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "d2d07d955f5d9c13",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/16/allure/#testresult/d2d07d955f5d9c13",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "56bd15a237f4e54c",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/15/allure/#testresult/56bd15a237f4e54c",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "2ad335a8b5a4488b",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/14/allure/#testresult/2ad335a8b5a4488b",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "94a551b7c60c05a2",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/13/allure/#testresult/94a551b7c60c05a2",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "4eb64c2a965ebaa8",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/12/allure/#testresult/4eb64c2a965ebaa8",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "7e4cf092fb070446",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/11/allure/#testresult/7e4cf092fb070446",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "5d7dd04a59eade5f",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/10/allure/#testresult/5d7dd04a59eade5f",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "81682f429797745a",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/9/allure/#testresult/81682f429797745a",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "b422000a6f7bb04b",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/8/allure/#testresult/b422000a6f7bb04b",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "4af7e00866c3a16a",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/7/allure/#testresult/4af7e00866c3a16a",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "80217a0365a53df2",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/6/allure/#testresult/80217a0365a53df2",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "954c5a16015e3820",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/5/allure/#testresult/954c5a16015e3820",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      }, {
+        "uid" : "31e7812ae39dca59",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project/4/allure/#testresult/31e7812ae39dca59",
+        "status" : "broken",
+        "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.className: text-align-left' (tried for 5 second(s) with 500 milliseconds interval)",
+        "time" : {
+          "start" : 1588089531283,
+          "stop" : 1588089551221,
+          "duration" : 19938
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b9163a6865de40e2.json",
+  "parameterValues" : [ ]
+}

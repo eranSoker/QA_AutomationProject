@@ -1,5 +1,5 @@
 {
-  "uid" : "323f198068453c21",
+  "uid" : "e0c09dd5ffefc0c2",
   "name" : "startSession",
   "fullName" : "Utilities.commonOps.startSession",
   "historyId" : "5cd90cb7bb805bf6d7a36bb0d7e440ef",
@@ -67,13 +67,23 @@
     "history" : {
       "statistic" : {
         "failed" : 0,
-        "broken" : 2,
+        "broken" : 3,
         "skipped" : 0,
         "passed" : 0,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "323f198068453c21",
+        "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/12/allure/#testresult/323f198068453c21",
+        "status" : "broken",
+        "statusDetails" : "java.net.UnknownHostException: npm.taobao.org",
+        "time" : {
+          "start" : 1590390061429,
+          "stop" : 1590390061433,
+          "duration" : 4
+        }
+      }, {
         "uid" : "92cc3630b088d9c1",
         "reportUrl" : "http://localhost:9090/job/Final%20Project%20-%20Web/11/allure/#testresult/92cc3630b088d9c1",
         "status" : "broken",
@@ -87,6 +97,6 @@
     },
     "tags" : [ ]
   },
-  "source" : "323f198068453c21.json",
+  "source" : "e0c09dd5ffefc0c2.json",
   "parameterValues" : [ "web" ]
 }

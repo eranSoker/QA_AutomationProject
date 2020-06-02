@@ -2,6 +2,8 @@ package Utilities;
 
 import io.appium.java_client.windows.WindowsDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,6 +27,8 @@ import java.util.concurrent.TimeUnit;
 
 public class commonOps extends base
 {
+    @Step("Get Data")
+    @Description("Step Description: Get data from DataConfig.xml file")
     public static String getData(String nodeName)
     {
         File fXmlFile;
@@ -48,6 +52,8 @@ public class commonOps extends base
         }
     }
 
+    @Step("Choose Browser")
+    @Description("Step Description: Choosing the right browser according to the value in DataConfig.xml file")
     public static void initBrowser(String browserType)
     {
         if(browserType.equalsIgnoreCase("chrome"))
@@ -64,18 +70,27 @@ public class commonOps extends base
         wait = new WebDriverWait(driver,5);
         action = new Actions(driver);
     }
+
+    @Step("Chrome Driver Setup")
+    @Description("Step Description: Automatic setup to chrome driver")
     public static WebDriver initChromeDriver()
     {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         return driver;
     }
+
+    @Step("Firefox Driver Setup")
+    @Description("Step Description: Automatic setup to firefox driver")
     public static WebDriver initFFDriver()
     {
         WebDriverManager.firefoxdriver().setup();
         WebDriver driver = new FirefoxDriver();
         return driver;
     }
+
+    @Step("Internet Explorer Driver Setup")
+    @Description("Step Description: Automatic setup to internet explorer driver")
     public static WebDriver initIEDriver()
     {
         WebDriverManager.iedriver().setup();
@@ -83,12 +98,16 @@ public class commonOps extends base
         return driver;
     }
 
+    @Step("API Platform")
+    @Description("Step Description: Login to API using RestAssured according to the url in DataConfig.xml file")
     public static void initAPI()
     {
         RestAssured.baseURI = getData("urlAPI");
         httpRequest = RestAssured.given().auth().preemptive().basic(getData("userNameAPI"),getData("passwordAPI"));
     }
 
+    @Step("Electron Platform")
+    @Description("Step Description: Login to Electron app according to the app path in DataConfig.xml file")
     public static void initElectron()
     {
         System.setProperty("webdriver.chrome.driver", getData("ElectronDriverPath"));
@@ -100,6 +119,8 @@ public class commonOps extends base
         driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("TimeOut")), TimeUnit.SECONDS);
     }
 
+    @Step("Desktop Platform")
+    @Description("Step Description: Login to Desktop app according to the App Unique in DataConfig.xml file")
     public static void initDesktop()
     {
         dc.setCapability("app", getData("AppUnique"));
@@ -116,6 +137,7 @@ public class commonOps extends base
 
     @BeforeClass
     @Parameters({"PlatformName"})
+    @Description("Step Description: Executed once and before all tests in the class")
     public void startSession (String PlatformName)
     {
         Platform = PlatformName;
@@ -146,6 +168,7 @@ public class commonOps extends base
     }
 
     @AfterMethod
+    @Description("Step Description: Invoked after the execution of each test method in the class")
     public void afterMethod() throws MalformedURLException
     {
         if(Platform.equalsIgnoreCase("web"))
@@ -153,6 +176,7 @@ public class commonOps extends base
     }
 
     @AfterClass
+    @Description("Step Description: Executed once and after all tests in the class")
     public void closeSession()
     {
         manageDB.closeDBConnection();

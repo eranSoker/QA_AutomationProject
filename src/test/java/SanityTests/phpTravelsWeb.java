@@ -3,15 +3,17 @@ package SanityTests;
 import Extensions.*;
 import Utilities.commonOps;
 import io.qameta.allure.Description;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import static WorkFlows.webFlows.*;
 
 @Listeners(Utilities.listeners.class)
 public class phpTravelsWeb extends commonOps
 {
-    @Test(priority = 1, description = "Create New User")
+    @Test(priority = 0, description = "Create New User")
     @Description("Test Description: Create New User")
     public void createUser()
     {
@@ -19,7 +21,7 @@ public class phpTravelsWeb extends commonOps
         verifications.assertTextInElement(userLogin.txt_UserName, "Hi, "+getData("firstName")+" "+getData("lastName"));
     }
 
-    @Test(priority = 2, description = "Choose A Flight")
+    @Test(priority = 1, description = "Choose A Flight")
     @Description("Test Description: Choosing A Flight from one Destination to second Destination for 2 passenger and Verify the Number of Results")
     public void chooseFlight()
     {
@@ -29,7 +31,7 @@ public class phpTravelsWeb extends commonOps
         softAssertion.assertAll();
     }
 
-    @Test(priority = 3, description = "Book A Deal")
+    @Test(priority = 2, description = "Book A Deal")
     @Description("Test Description: book a deal and make sure the details are match to actual result")
     public void bookDeal() throws InterruptedException
     {
@@ -44,7 +46,7 @@ public class phpTravelsWeb extends commonOps
         softAssertion.assertAll();
     }
 
-    @Test(priority = 4, description = "Write Message in the Live Chat")
+    @Test(priority = 3, description = "Write Message in the Live Chat")
     @Description("Test Description: write a short message in the Live Chat")
     public void liveChatMessage()
     {
@@ -53,14 +55,22 @@ public class phpTravelsWeb extends commonOps
         verifications.softAssertPartialTextInElement(liveChat.txt_Delivered, "wrong word");
         System.out.println(liveChat.txt_Delivered.getText());
         softAssertion.assertAll();
-        driver.switchTo().defaultContent();
+        uiActions.backToDefault();
     }
 
-    @Test(priority = 5, description = "Twitter Link")
+    @Test(priority = 4, description = "Twitter Link")
     @Description("Test Description: Check that Twitter link is working")
     public void twitterSync()
     {
         checkLink(phpTravelsHome.btn_twitter);
         verifications.assertTextToText(driver.getCurrentUrl(),getData("twitterUrl"));
+    }
+
+    @BeforeMethod(description = "Before method back to story page")
+    @Description("Before each method going back to story page")
+    public void beforeMethod()
+    {
+        SoftAssert softAssert = new SoftAssert();
+        softAssertion = softAssert;
     }
 }
